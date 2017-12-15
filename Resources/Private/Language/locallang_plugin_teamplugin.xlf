@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="txclubman">
+		<header/>
+		<body>
+			<!-- GeneSEZ Generator Hint: id="sheet.sDEF" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.sDEF._18_0_5_16b8041b_1454259201741_533743_6208) START -->
+			<trans-unit id="sheet.sDEF" xml:space="preserve">
+				<source>SDEF</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="switchableControllerAction" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.switchableControllerAction._18_0_5_16b8041b_1454259201741_533743_6208) START -->
+			<trans-unit id="switchableControllerAction" xml:space="preserve">
+				<source>Switchable Controller Action</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="switchableControllerAction.TeamShowTeammatesPluginConfiguration" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.switchableControllerAction._18_0_5_16b8041b_1454259220831_417448_6228) START -->
+			<trans-unit id="switchableControllerAction.TeamShowTeammatesPluginConfiguration" xml:space="preserve">
+				<source>Switchable Controller Action TeamShowTeammatesPluginConfiguration</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="switchableControllerAction.TeamShowDirectorsPluginConfiguration" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.switchableControllerAction._18_0_5_16b8041b_1470398100701_327618_7274) START -->
+			<trans-unit id="switchableControllerAction.TeamShowDirectorsPluginConfiguration" xml:space="preserve">
+				<source>Switchable Controller Action TeamShowDirectorsPluginConfiguration</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="setting.team" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en._18_0_5_16b8041b_1454259478298_784677_6314) ENABLED START -->
+			<trans-unit id="setting.team" xml:space="preserve">
+				<source>Team</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.own.localizations._18_0_5_16b8041b_1454259201741_533743_6208) ENABLED START -->
+			<!-- PROTECTED REGION END -->
+		</body>
+	</file>
+</xliff>

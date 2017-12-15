@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="txclubman">
+		<header/>
+		<body>
+			<!-- GeneSEZ Generator Hint: id="sheet.sDEF" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.sDEF._18_0_5_16b8041b_1470660328003_621225_6327) START -->
+			<trans-unit id="sheet.sDEF" xml:space="preserve">
+				<source>SDEF</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="switchableControllerAction" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.switchableControllerAction._18_0_5_16b8041b_1470660328003_621225_6327) START -->
+			<trans-unit id="switchableControllerAction" xml:space="preserve">
+				<source>Switchable Controller Action</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="switchableControllerAction.OrganShowMembersPluginConfiguration" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.switchableControllerAction._18_0_5_16b8041b_1470660344443_933761_6348) START -->
+			<trans-unit id="switchableControllerAction.OrganShowMembersPluginConfiguration" xml:space="preserve">
+				<source>Switchable Controller Action OrganShowMembersPluginConfiguration</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="setting.organ" -->
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en._18_0_5_16b8041b_1470660297100_951820_6322) START -->
+			<trans-unit id="setting.organ" xml:space="preserve">
+				<source>Organ</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- PROTECTED REGION ID(locallang_plugin.xlf.en.own.localizations._18_0_5_16b8041b_1470660328003_621225_6327) ENABLED START -->
+			<!-- TODO: put your further 'en' localizations here -->
+			<!-- PROTECTED REGION END -->
+		</body>
+	</file>
+</xliff>

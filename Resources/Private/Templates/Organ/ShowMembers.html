@@ -1,0 +1,48 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:cm="http://typo3.org/ns/NicoHerbigIo/Clubman/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<ul class="row">
+    <f:for each="{members}" as="member" iteration="membersIterator">
+        <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <span class="thumb-info thumb-info-hide-wrapper-bg mb-lg">
+                <span class="thumb-info-wrapper">
+                    <f:if condition="{member.member.picture}">
+                        <f:then>
+                            <img src="{member.member.picture.originalResource.publicUrl}" class="img-responsive" alt="">
+                        </f:then>
+                        <f:else>
+                            <img src="{settings.member.dummyImage}" class="img-responsive" alt="">
+                        </f:else>
+                    </f:if>
+                    <span class="thumb-info-title">
+                        <span class="thumb-info-inner">{member.member.firstName} {member.member.lastName}</span>
+                        <span class="thumb-info-type">{member.genderedPosition}</span>
+                    </span>
+                </span>
+
+                <span class="thumb-info-caption">
+                    <f:if condition="{member.description}">
+                        <span class="thumb-info-caption-text">{member.description}</span>
+                    </f:if>
+                    <f:if condition="{member.member.communicationData}">
+                        <span class="thumb-info-communication-data">
+                            <ul class="list list-icons list-icons-style-3">
+                                <f:if condition="{member.member.correspondenceEMail}">
+                                    <li style="margin-bottom:0"><i class="fa fa-envelope"></i> <f:link.email email="{member.member.correspondenceEMail.email}" /></li>
+                                </f:if>
+                                <f:if condition="{member.member.correspondenceTelephone}">
+                                    <li style="margin-bottom:0"><i class="fa fa-phone"></i> {member.member.correspondenceTelephone.telephone}</li>
+                                </f:if>
+                            </ul>
+                        </span>
+                    </f:if>
+                </span>
+
+            </span>
+        </li>
+    </f:for>
+</ul>
+
+
+</html>

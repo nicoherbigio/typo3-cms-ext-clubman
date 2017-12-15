@@ -1,0 +1,60 @@
+{
+  "name": "nicoherbigio/typo3-cms-ext-clubman",
+  "description": "ClubMan - Club Management",
+
+  "type": "typo3-cms-extension",
+
+  "keywords": ["TYPO3 CMS", "Nico Herbig", "Club Management", "Team Management"],
+  "homepage": "https://github.com/nicoherbigio/typo3-cms-ext-clubman",
+  "license": "GPL-2.0+",
+
+  "authors": [
+    {
+      "name": "Nico Herbig",
+      "email": "info@nicoherbig.io",
+      "homepage": "https://www.nicoherbig.io",
+      "role": "Developer"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/nicoherbigio/typo3-cms-ext-clubman/issues"
+  },
+
+  "require": {
+    "typo3/cms-core": "^7.6"
+  },
+
+  "replace": {
+    "clubman": "self.version",
+    "typo3-ter/clubman": "self.version"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "NicoHerbigIo\\Clubman\\": "Classes/"
+    }
+  },
+
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+
+  "scripts": {
+    "post-autoload-dump": [
+      "mkdir -p .Build/web/typo3conf/ext/",
+      "[ -L .Build/web/typo3conf/ext/clubman ] || ln -snvf ../../../../. .Build/web/typo3conf/ext/clubman"
+    ]
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/web"
+    }
+  }
+}

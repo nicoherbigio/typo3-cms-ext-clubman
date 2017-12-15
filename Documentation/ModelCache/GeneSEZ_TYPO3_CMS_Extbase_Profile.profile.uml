@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="438b08e4-1c85-11e3-8460-2388508c54e2" name="GeneSEZ TYPO3 CMS Extbase Profile" URI="" metamodelReference="439a4b52-1c85-11e3-8460-2388508c54e2">
+  <eAnnotations xmi:id="_ktys1WlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_ktys1mlOEeasRsuBHFTDHg" name="GeneSEZTYPO3CMSExtbaseProfile" nsURI="http:///schemas/GeneSEZTYPO3CMSExtbaseProfile/_ktcHMGlOEeasRsuBHFTDHg/0" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile">
+      <eSubpackages xmi:id="_ktys12lOEeasRsuBHFTDHg" name="ModelViewController" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/ModelViewController.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.ModelViewController">
+        <eAnnotations xmi:id="_ktys2GlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="4396053f-1c85-11e3-8460-2388508c54e2"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktys2WlOEeasRsuBHFTDHg" name="ExtbaseControllerAction">
+          <eAnnotations xmi:id="_ktys2mlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="43931ed6-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktys22lOEeasRsuBHFTDHg" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktys3WlOEeasRsuBHFTDHg" name="createInitializeAction" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktys32lOEeasRsuBHFTDHg" name="ExtbaseController">
+          <eAnnotations xmi:id="_ktys4GlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439149ec-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktys4WlOEeasRsuBHFTDHg" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktys42lOEeasRsuBHFTDHg" name="createInitializeAction" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktys5WlOEeasRsuBHFTDHg" name="createErrorAction" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktys52lOEeasRsuBHFTDHg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktys6WlOEeasRsuBHFTDHg" name="ExtbaseNoControllerAction">
+          <eAnnotations xmi:id="_ktys6mlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="438e3d64-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktys62lOEeasRsuBHFTDHg" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktys7WlOEeasRsuBHFTDHg" name="ExtbaseControllerCommand">
+          <eAnnotations xmi:id="_ktys7mlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="4397da23-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktys72lOEeasRsuBHFTDHg" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktys8WlOEeasRsuBHFTDHg" name="ExtbaseUncachedControllerAction" eSuperTypes="_ktys2WlOEeasRsuBHFTDHg">
+          <eAnnotations xmi:id="_ktys8mlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_16b8041b_1410195118258_259345_1629"/>
+          <eAnnotations xmi:id="_ktys82lOEeasRsuBHFTDHg" source="duplicates">
+            <contents xmi:type="ecore:EReference" xmi:id="_ktys9GlOEeasRsuBHFTDHg" name="base_Operation" ordered="false" lowerBound="1">
+              <eAnnotations xmi:id="_ktys9WlOEeasRsuBHFTDHg" source="redefines" references="_ktys22lOEeasRsuBHFTDHg"/>
+              <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+            </contents>
+          </eAnnotations>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:id="_ktys-GlOEeasRsuBHFTDHg" name="ExtensionConfiguration" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/ExtensionConfiguration.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.ExtensionConfiguration">
+        <eAnnotations xmi:id="_ktys-WlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="438cb6ac-1c85-11e3-8460-2388508c54e2"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktys-mlOEeasRsuBHFTDHg" name="ExtbasePlugin">
+          <eAnnotations xmi:id="_ktys-2lOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="4398284a-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktys_GlOEeasRsuBHFTDHg" name="title" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktys_mlOEeasRsuBHFTDHg" name="controllerActions" ordered="false" upperBound="-1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytAGlOEeasRsuBHFTDHg" name="uncachedControllerActions" ordered="false" upperBound="-1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytAmlOEeasRsuBHFTDHg" name="base_Interface" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Interface"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytBGlOEeasRsuBHFTDHg" name="pluginConfigurations" ordered="false" upperBound="-1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Interface"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytBmlOEeasRsuBHFTDHg" name="pluginType" ordered="false" lowerBound="1" eType="_ktytCmlOEeasRsuBHFTDHg" defaultValueLiteral="EXTBASE_PLUGIN"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytCGlOEeasRsuBHFTDHg" name="iconPathAndFilename" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_ktytCmlOEeasRsuBHFTDHg" name="ExtbasePluginType">
+          <eAnnotations xmi:id="_ktytC2lOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439149ee-1c85-11e3-8460-2388508c54e2"/>
+          <eLiterals xmi:id="_ktytDGlOEeasRsuBHFTDHg" name="EXTBASE_PLUGIN"/>
+          <eLiterals xmi:id="_ktytDWlOEeasRsuBHFTDHg" name="EXTBASE_CONTENT_ELEMENT" value="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_ktytDmlOEeasRsuBHFTDHg" name="ExtbaseAccessRole">
+          <eAnnotations xmi:id="_ktytD2lOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="4395de2e-1c85-11e3-8460-2388508c54e2"/>
+          <eLiterals xmi:id="_ktytEGlOEeasRsuBHFTDHg" name="ADMIN"/>
+          <eLiterals xmi:id="_ktytEWlOEeasRsuBHFTDHg" name="USER" value="1"/>
+          <eLiterals xmi:id="_ktytEmlOEeasRsuBHFTDHg" name="GROUP" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_ktytE2lOEeasRsuBHFTDHg" name="ExtbaseMainModule">
+          <eAnnotations xmi:id="_ktytFGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="438bcc3a-1c85-11e3-8460-2388508c54e2"/>
+          <eLiterals xmi:id="_ktytFWlOEeasRsuBHFTDHg" name="WEB"/>
+          <eLiterals xmi:id="_ktytFmlOEeasRsuBHFTDHg" name="USER" value="1"/>
+          <eLiterals xmi:id="_ktytF2lOEeasRsuBHFTDHg" name="TOOLS" value="2"/>
+          <eLiterals xmi:id="_ktytGGlOEeasRsuBHFTDHg" name="HELP" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytGWlOEeasRsuBHFTDHg" name="ExtbaseModule">
+          <eAnnotations xmi:id="_ktytGmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439345e9-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytG2lOEeasRsuBHFTDHg" name="controllerActions" ordered="false" upperBound="-1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytHWlOEeasRsuBHFTDHg" name="base_Interface" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Interface"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytH2lOEeasRsuBHFTDHg" name="mainModule" ordered="false" lowerBound="1" eType="_ktytE2lOEeasRsuBHFTDHg" defaultValueLiteral="WEB"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytIWlOEeasRsuBHFTDHg" name="position" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytI2lOEeasRsuBHFTDHg" name="access" ordered="false" lowerBound="1" upperBound="-1" eType="_ktytDmlOEeasRsuBHFTDHg" defaultValueLiteral="ADMIN"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytJWlOEeasRsuBHFTDHg" name="ExtbasePluginConfiguration">
+          <eAnnotations xmi:id="_ktytJmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_16b8041b_1410196294071_467516_1568"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytJ2lOEeasRsuBHFTDHg" name="base_Interface" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Interface"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytKWlOEeasRsuBHFTDHg" name="switchableControllerActionIndex" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Integer"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktytK2lOEeasRsuBHFTDHg" name="switchableControllerActions" ordered="false" upperBound="-1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:id="_ktytLWlOEeasRsuBHFTDHg" name="Datatypes" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes">
+        <eAnnotations xmi:id="_ktytLmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="4398c494-1c85-11e3-8460-2388508c54e2"/>
+        <eSubpackages xmi:id="_ktytL2lOEeasRsuBHFTDHg" name="Mvc" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Mvc.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Mvc">
+          <eAnnotations xmi:id="_ktytMGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="4398766c-1c85-11e3-8460-2388508c54e2"/>
+          <eSubpackages xmi:id="_ktytMWlOEeasRsuBHFTDHg" name="Controller" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Mvc/Controller.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Mvc.Controller">
+            <eAnnotations xmi:id="_ktytMmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="43919812-1c85-11e3-8460-2388508c54e2"/>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytM2lOEeasRsuBHFTDHg" name="AbstractController">
+              <eAnnotations xmi:id="_ktytNGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439716c2-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytNWlOEeasRsuBHFTDHg" name="ActionController">
+              <eAnnotations xmi:id="_ktytNmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="43903865-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytN2lOEeasRsuBHFTDHg" name="CommandController">
+              <eAnnotations xmi:id="_ktytOGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="438e6479-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytOWlOEeasRsuBHFTDHg" name="ControllerInterface" abstract="true" interface="true">
+              <eAnnotations xmi:id="_ktytOmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="438def3e-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytO2lOEeasRsuBHFTDHg" name="CommandControllerInterface" abstract="true" interface="true">
+              <eAnnotations xmi:id="_ktytPGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380209159185_991135_1913"/>
+            </eClassifiers>
+          </eSubpackages>
+        </eSubpackages>
+        <eSubpackages xmi:id="_ktytPWlOEeasRsuBHFTDHg" name="Validation" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Validation.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Validation">
+          <eAnnotations xmi:id="_ktytPmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="4396efb0-1c85-11e3-8460-2388508c54e2"/>
+          <eSubpackages xmi:id="_ktytP2lOEeasRsuBHFTDHg" name="Validator" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Validation/Validator.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Validation.Validator">
+            <eAnnotations xmi:id="_ktytQGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="438eb29e-1c85-11e3-8460-2388508c54e2"/>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytQWlOEeasRsuBHFTDHg" name="AbstractValidator">
+              <eAnnotations xmi:id="_ktytQmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="4398c493-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+          </eSubpackages>
+        </eSubpackages>
+        <eSubpackages xmi:id="_ktytQ2lOEeasRsuBHFTDHg" name="Persistence" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Persistence.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Persistence">
+          <eAnnotations xmi:id="_ktytRGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="43903862-1c85-11e3-8460-2388508c54e2"/>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytRWlOEeasRsuBHFTDHg" name="Repository">
+            <eAnnotations xmi:id="_ktytRmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="438d2bdd-1c85-11e3-8460-2388508c54e2"/>
+          </eClassifiers>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytR2lOEeasRsuBHFTDHg" name="PersistenceManagerInterface" abstract="true" interface="true">
+            <eAnnotations xmi:id="_ktytSGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_16b8041b_1409414045186_133995_1635"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages xmi:id="_ktytSWlOEeasRsuBHFTDHg" name="Domain" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Domain.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Domain">
+          <eAnnotations xmi:id="_ktytSmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="439568f5-1c85-11e3-8460-2388508c54e2"/>
+          <eSubpackages xmi:id="_ktytS2lOEeasRsuBHFTDHg" name="Model" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Domain/Model.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Domain.Model">
+            <eAnnotations xmi:id="_ktytTGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="439912b6-1c85-11e3-8460-2388508c54e2"/>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytTWlOEeasRsuBHFTDHg" name="FrontendUser">
+              <eAnnotations xmi:id="_ktytTmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="43901151-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytT2lOEeasRsuBHFTDHg" name="FrontendUserGroup">
+              <eAnnotations xmi:id="_ktytUGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439c6d5e-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytUWlOEeasRsuBHFTDHg" name="BackendUser">
+              <eAnnotations xmi:id="_ktytUmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208140200_821773_1542"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytU2lOEeasRsuBHFTDHg" name="BackendUserGroup">
+              <eAnnotations xmi:id="_ktytVGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208155647_256410_1543"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytVWlOEeasRsuBHFTDHg" name="Category">
+              <eAnnotations xmi:id="_ktytVmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208591761_650072_1909"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytV2lOEeasRsuBHFTDHg" name="FileMount">
+              <eAnnotations xmi:id="_ktytWGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208600719_642465_1910"/>
+            </eClassifiers>
+          </eSubpackages>
+          <eSubpackages xmi:id="_ktytWWlOEeasRsuBHFTDHg" name="Repository" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Domain/Repository.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Domain.Repository">
+            <eAnnotations xmi:id="_ktytWmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="4392d0ad-1c85-11e3-8460-2388508c54e2"/>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytW2lOEeasRsuBHFTDHg" name="FrontendUserGroupRepository">
+              <eAnnotations xmi:id="_ktytXGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="4399af03-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytXWlOEeasRsuBHFTDHg" name="FrontendUserRepository">
+              <eAnnotations xmi:id="_ktytXmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439d57cf-1c85-11e3-8460-2388508c54e2"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytX2lOEeasRsuBHFTDHg" name="BackendUserGroupRepository">
+              <eAnnotations xmi:id="_ktytYGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208298383_172776_1546"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytYWlOEeasRsuBHFTDHg" name="BackendUserRepository">
+              <eAnnotations xmi:id="_ktytYmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208298395_378670_1547"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytY2lOEeasRsuBHFTDHg" name="CategoryRepository">
+              <eAnnotations xmi:id="_ktytZGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208778039_113485_1911"/>
+            </eClassifiers>
+            <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytZWlOEeasRsuBHFTDHg" name="FileMountRepository">
+              <eAnnotations xmi:id="_ktytZmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_8a7027a_1380208786959_296502_1912"/>
+            </eClassifiers>
+          </eSubpackages>
+        </eSubpackages>
+        <eSubpackages xmi:id="_ktytZ2lOEeasRsuBHFTDHg" name="DomainObject" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/DomainObject.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.DomainObject">
+          <eAnnotations xmi:id="_ktytaGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="438ed8b4-1c85-11e3-8460-2388508c54e2"/>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytaWlOEeasRsuBHFTDHg" name="AbstractEntity">
+            <eAnnotations xmi:id="_ktytamlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="4391980f-1c85-11e3-8460-2388508c54e2"/>
+          </eClassifiers>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktyta2lOEeasRsuBHFTDHg" name="AbstractValueObject">
+            <eAnnotations xmi:id="_ktytbGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439149eb-1c85-11e3-8460-2388508c54e2"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages xmi:id="_ktytbWlOEeasRsuBHFTDHg" name="Configuration" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Configuration.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Configuration">
+          <eAnnotations xmi:id="_ktytbmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_17_0_6_16b8041b_1409413964232_751250_1565"/>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytb2lOEeasRsuBHFTDHg" name="ConfigurationManagerInterface" abstract="true" interface="true">
+            <eAnnotations xmi:id="_ktytcGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_16b8041b_1409413971969_931892_1568"/>
+          </eClassifiers>
+        </eSubpackages>
+        <eSubpackages xmi:id="_ktytcWlOEeasRsuBHFTDHg" name="Object" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/Datatypes/Object.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.Datatypes.Object">
+          <eAnnotations xmi:id="_ktytcmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_17_0_6_16b8041b_1409413996651_581589_1598"/>
+          <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytc2lOEeasRsuBHFTDHg" name="ObjectManagerInterface" abstract="true" interface="true">
+            <eAnnotations xmi:id="_ktytdGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_17_0_6_16b8041b_1409414011656_275731_1607"/>
+          </eClassifiers>
+        </eSubpackages>
+      </eSubpackages>
+      <eSubpackages xmi:id="_ktytdWlOEeasRsuBHFTDHg" name="DomainModel" nsURI="http:///GeneSEZTYPO3CMSExtbaseProfile/DomainModel.ecore" nsPrefix="GeneSEZTYPO3CMSExtbaseProfile.DomainModel">
+        <eAnnotations xmi:id="_ktytdmlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/4.0.0/UML" references="439b5bda-1c85-11e3-8460-2388508c54e2"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ktytd2lOEeasRsuBHFTDHg" name="ExtbaseDomainObject">
+          <eAnnotations xmi:id="_ktyteGlOEeasRsuBHFTDHg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="439ac08b-1c85-11e3-8460-2388508c54e2"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ktyteWlOEeasRsuBHFTDHg" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktyte2lOEeasRsuBHFTDHg" name="allowTableOnStandardPages" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytfWlOEeasRsuBHFTDHg" name="createStarttimeField" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytf2lOEeasRsuBHFTDHg" name="createEndtimeField" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytgWlOEeasRsuBHFTDHg" name="createHiddenField" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytg2lOEeasRsuBHFTDHg" name="createFeGroupField" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktythWlOEeasRsuBHFTDHg" name="createSortingField" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktyth2lOEeasRsuBHFTDHg" name="createLocalizationFields" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ktytiWlOEeasRsuBHFTDHg" name="createVersioningFields" ordered="false" lowerBound="1" defaultValueLiteral="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+  </eAnnotations>
+  <ownedComment xmi:id="43965360-1c85-11e3-8460-2388508c54e2" annotatedElement="438b08e4-1c85-11e3-8460-2388508c54e2" body="UML Profile which contains a modeling suite for TYPO3 Extbase-based extension development in TYPO3 CMS."/>
+  <packageImport xmi:id="439a4b52-1c85-11e3-8460-2388508c54e2">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_0primitiveTypesGeneSEZ_TYPO3_CMS_Extbase_Profile">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_0javaPrimitiveTypesGeneSEZ_TYPO3_CMS_Extbase_Profile">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="4396053f-1c85-11e3-8460-2388508c54e2" name="ModelViewController" URI="">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="43931ed6-1c85-11e3-8460-2388508c54e2" name="ExtbaseControllerAction">
+      <ownedComment xmi:id="438cb6ab-1c85-11e3-8460-2388508c54e2" annotatedElement="43931ed6-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Methode als Controller-Action."/>
+      <ownedAttribute xmi:id="439122d9-1c85-11e3-8460-2388508c54e2" name="base_Operation" visibility="private" association="438c6887-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="4394cca5-1c85-11e3-8460-2388508c54e2" name="createInitializeAction" visibility="private">
+        <ownedComment xmi:id="439987f1-1c85-11e3-8460-2388508c54e2" annotatedElement="4394cca5-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für die Controller-Action die dazugehörige Initialisierungsmethode automatisch durch die Plattform erzeugt werden soll."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="439c1f35-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="438c6887-1c85-11e3-8460-2388508c54e2" name="" memberEnd="439122d9-1c85-11e3-8460-2388508c54e2 4394305a-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="4394305a-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="4394305a-1c85-11e3-8460-2388508c54e2" name="extension_" visibility="private" type="43931ed6-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="438c6887-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="439764eb-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="438c6885-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="439149ec-1c85-11e3-8460-2388508c54e2" name="ExtbaseController">
+      <ownedComment xmi:id="439c1f36-1c85-11e3-8460-2388508c54e2" annotatedElement="439149ec-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Klasse als Controller nach dem Model View Controller-Pattern. Alle enthaltenen Methoden werden automatisch durch die Plattform als Controller-Actions erkannt, sofern keine expliziten anderweitigen Festlegungen getroffen sind."/>
+      <ownedAttribute xmi:id="43982849-1c85-11e3-8460-2388508c54e2" name="base_Class" visibility="private" association="439d57d0-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438ba529-1c85-11e3-8460-2388508c54e2" name="createInitializeAction" visibility="private">
+        <ownedComment xmi:id="43923461-1c85-11e3-8460-2388508c54e2" annotatedElement="438ba529-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für den Controller die &quot;initalizeAction&quot; automatisch durch die Plattform erzeugt werden soll."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="438b7e17-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438c4173-1c85-11e3-8460-2388508c54e2" name="createErrorAction" visibility="private">
+        <ownedComment xmi:id="43978bfc-1c85-11e3-8460-2388508c54e2" annotatedElement="438c4173-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für den Controller die &quot;errorAction&quot; automatisch durch die Plattform erzeugt werden soll."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="4392345e-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439b0db1-1c85-11e3-8460-2388508c54e2" name="base_Package" visibility="private" association="438bf34e-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="439d57d0-1c85-11e3-8460-2388508c54e2" name="" memberEnd="43982849-1c85-11e3-8460-2388508c54e2 438eb2a1-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="438eb2a1-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="438eb2a1-1c85-11e3-8460-2388508c54e2" name="extension_" visibility="private" type="439149ec-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="439d57d0-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="4396efaf-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="439960de-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="438e3d64-1c85-11e3-8460-2388508c54e2" name="ExtbaseNoControllerAction">
+      <ownedComment xmi:id="438eb2a0-1c85-11e3-8460-2388508c54e2" annotatedElement="438e3d64-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Methode als keine Controller-Action."/>
+      <ownedAttribute xmi:id="438e6477-1c85-11e3-8460-2388508c54e2" name="base_Operation" visibility="private" association="4390114f-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="4390114f-1c85-11e3-8460-2388508c54e2" name="" memberEnd="438e6477-1c85-11e3-8460-2388508c54e2 4399fd2b-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="4399fd2b-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="4399fd2b-1c85-11e3-8460-2388508c54e2" name="extension_" visibility="private" type="438e3d64-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="4390114f-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="438e6478-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="43925b72-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="4397da23-1c85-11e3-8460-2388508c54e2" name="ExtbaseControllerCommand">
+      <ownedComment xmi:id="43965362-1c85-11e3-8460-2388508c54e2" annotatedElement="4397da23-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Methode als Controller-Command."/>
+      <ownedAttribute xmi:id="4396c89c-1c85-11e3-8460-2388508c54e2" name="base_Operation" visibility="private" association="438fea3b-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="438fea3b-1c85-11e3-8460-2388508c54e2" name="" memberEnd="4396c89c-1c85-11e3-8460-2388508c54e2 439c6d5b-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="439c6d5b-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="439c6d5b-1c85-11e3-8460-2388508c54e2" name="extension_" visibility="private" type="4397da23-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="438fea3b-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="438f9c14-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="439912b5-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="438bf34e-1c85-11e3-8460-2388508c54e2" name="" memberEnd="439b0db1-1c85-11e3-8460-2388508c54e2 4396a188-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="4396a188-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="4396a188-1c85-11e3-8460-2388508c54e2" name="extension_ExtbaseController" visibility="private" type="439149ec-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="438bf34e-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="4393e232-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="4392a99c-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_17_0_6_16b8041b_1410195118258_259345_1629" name="ExtbaseUncachedControllerAction">
+      <generalization xmi:id="_17_0_6_16b8041b_1410195119461_200778_1638" general="43931ed6-1c85-11e3-8460-2388508c54e2"/>
+      <ownedAttribute xmi:id="_17_0_6_16b8041b_1410195119476_453486_1641" name="base_Operation" visibility="private" association="_17_0_6_16b8041b_1410195119476_259205_1640">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_17_0_6_16b8041b_1410195119476_259205_1640" name="" memberEnd="_17_0_6_16b8041b_1410195119476_453486_1641 _17_0_6_16b8041b_1410195119476_507518_1642" navigableOwnedEnd="_17_0_6_16b8041b_1410195119476_507518_1642">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_17_0_6_16b8041b_1410195119476_507518_1642" name="extension_" visibility="private" type="_17_0_6_16b8041b_1410195118258_259345_1629" aggregation="composite" association="_17_0_6_16b8041b_1410195119476_259205_1640">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_6_16b8041b_1410195119476_993926_1643" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_6_16b8041b_1410195119476_400153_1644" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="438cb6ac-1c85-11e3-8460-2388508c54e2" name="ExtensionConfiguration" URI="">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="4398284a-1c85-11e3-8460-2388508c54e2" name="ExtbasePlugin">
+      <ownedComment xmi:id="438b7e16-1c85-11e3-8460-2388508c54e2" annotatedElement="4398284a-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Einstellungen zur Konfiguration und Registierung des Plugins für das Frontend von TYPO3. Der eindeutige Name des Plugins entspricht dem Schnittstellennamen."/>
+      <ownedAttribute xmi:id="4397b310-1c85-11e3-8460-2388508c54e2" name="title" visibility="private">
+        <ownedComment xmi:id="439b5bd9-1c85-11e3-8460-2388508c54e2" annotatedElement="4397b310-1c85-11e3-8460-2388508c54e2" body="Gibt den Titel des Plugins an. Dieser erscheint in der Auswahlliste der Plugins im Backend."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439a997a-1c85-11e3-8460-2388508c54e2" name="controllerActions" visibility="private">
+        <ownedComment xmi:id="43920d4d-1c85-11e3-8460-2388508c54e2" annotatedElement="439a997a-1c85-11e3-8460-2388508c54e2" body="Definiert eine Liste von Referenzen auf Controller-Actions, die das Plugin ausführen darf. Die zurückgelieferten Inhalte werden im Cache von TYPO3 abgelegt. Die erste angegebene Action in dieser Liste ist die Standard-Action."/>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="4396a187-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="4392d0b0-1c85-11e3-8460-2388508c54e2" name="" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439c9471-1c85-11e3-8460-2388508c54e2" name="uncachedControllerActions" visibility="private">
+        <ownedComment xmi:id="438fc327-1c85-11e3-8460-2388508c54e2" annotatedElement="439c9471-1c85-11e3-8460-2388508c54e2" body="Definiert eine Liste von Referenzen auf Controller-Actions, deren Ergebnisse nicht im Cache von TYPO3 abgelegt werden sollen."/>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="439a7264-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="4393bb1c-1c85-11e3-8460-2388508c54e2" name="" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="43980135-1c85-11e3-8460-2388508c54e2" name="base_Interface" visibility="private" association="439b5bd8-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_17_0_6_16b8041b_1410383837433_10941_1936" name="pluginConfigurations" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_6_16b8041b_1410383884233_29097_1948" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_6_16b8041b_1410383884233_804053_1949" name="" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439bd10f-1c85-11e3-8460-2388508c54e2" name="pluginType" visibility="private" type="439149ee-1c85-11e3-8460-2388508c54e2">
+        <ownedComment xmi:id="439c4649-1c85-11e3-8460-2388508c54e2" annotatedElement="439bd10f-1c85-11e3-8460-2388508c54e2" body="Ermöglicht die Auswahl eines Typs. Dieser legt fest, wie das Plugin im Backend angezeigt werden soll."/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="439ae79d-1c85-11e3-8460-2388508c54e2" name="" instance="43951ace-1c85-11e3-8460-2388508c54e2"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439b0db2-1c85-11e3-8460-2388508c54e2" name="iconPathAndFilename" visibility="private">
+        <ownedComment xmi:id="4394a592-1c85-11e3-8460-2388508c54e2" annotatedElement="439b0db2-1c85-11e3-8460-2388508c54e2" body="Gibt den Pfad und Dateinamen zum Icon des Plugins an. Dieses wird neben dem Titel des Plugins in der Auswahlliste im Backend angezeigt."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="439b5bd8-1c85-11e3-8460-2388508c54e2" name="" memberEnd="43980135-1c85-11e3-8460-2388508c54e2 4390d4b0-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="4390d4b0-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="4390d4b0-1c85-11e3-8460-2388508c54e2" name="extension_T3ExtbasePlugin" visibility="private" type="4398284a-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="439b5bd8-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="4397da24-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="43947e7d-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="4395de2e-1c85-11e3-8460-2388508c54e2" name="ExtbaseAccessRole">
+      <ownedLiteral xmi:id="4390868a-1c85-11e3-8460-2388508c54e2" name="ADMIN">
+        <ownedComment xmi:id="439ce298-1c85-11e3-8460-2388508c54e2" annotatedElement="4390868a-1c85-11e3-8460-2388508c54e2" body="Administratoren."/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="438d7a04-1c85-11e3-8460-2388508c54e2" name="USER">
+        <ownedComment xmi:id="43947e7e-1c85-11e3-8460-2388508c54e2" annotatedElement="438d7a04-1c85-11e3-8460-2388508c54e2" body="Benutzer."/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="43920d4c-1c85-11e3-8460-2388508c54e2" name="GROUP">
+        <ownedComment xmi:id="4399af04-1c85-11e3-8460-2388508c54e2" annotatedElement="43920d4c-1c85-11e3-8460-2388508c54e2" body="Gruppen."/>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="439149ee-1c85-11e3-8460-2388508c54e2" name="ExtbasePluginType">
+      <ownedLiteral xmi:id="43951ace-1c85-11e3-8460-2388508c54e2" name="EXTBASE_PLUGIN">
+        <ownedComment xmi:id="43965361-1c85-11e3-8460-2388508c54e2" annotatedElement="43951ace-1c85-11e3-8460-2388508c54e2" body="Anzeige als Plugin in der Auswahlliste."/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="4390ad9e-1c85-11e3-8460-2388508c54e2" name="EXTBASE_CONTENT_ELEMENT">
+        <ownedComment xmi:id="4395b71a-1c85-11e3-8460-2388508c54e2" annotatedElement="4390ad9e-1c85-11e3-8460-2388508c54e2" body="Anzeige als normales Inhaltselement."/>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="438bcc3a-1c85-11e3-8460-2388508c54e2" name="ExtbaseMainModule">
+      <ownedLiteral xmi:id="438ed8b3-1c85-11e3-8460-2388508c54e2" name="WEB">
+        <ownedComment xmi:id="4393bb1d-1c85-11e3-8460-2388508c54e2" annotatedElement="438ed8b3-1c85-11e3-8460-2388508c54e2" body="Modulbereich Web."/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="439a4b51-1c85-11e3-8460-2388508c54e2" name="USER">
+        <ownedComment xmi:id="438dc829-1c85-11e3-8460-2388508c54e2" annotatedElement="439a4b51-1c85-11e3-8460-2388508c54e2" body="Modulbereich Benutzerwerkzeuge."/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="439cbb85-1c85-11e3-8460-2388508c54e2" name="TOOLS">
+        <ownedComment xmi:id="438c4172-1c85-11e3-8460-2388508c54e2" annotatedElement="439cbb85-1c85-11e3-8460-2388508c54e2" body="Modulbereich Adminwerkzeuge."/>
+      </ownedLiteral>
+      <ownedLiteral xmi:id="439c4648-1c85-11e3-8460-2388508c54e2" name="HELP">
+        <ownedComment xmi:id="43989d7f-1c85-11e3-8460-2388508c54e2" annotatedElement="439c4648-1c85-11e3-8460-2388508c54e2" body="Modulbereich Hilfe."/>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="439345e9-1c85-11e3-8460-2388508c54e2" name="ExtbaseModule">
+      <ownedComment xmi:id="4394cca6-1c85-11e3-8460-2388508c54e2" annotatedElement="439345e9-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Einstellungen zur Konfiguration und Registierung des Moduls für das Backend von TYPO3. Der eindeutige Name des Moduls entspricht dem Schnittstellennamen."/>
+      <ownedAttribute xmi:id="43973dd6-1c85-11e3-8460-2388508c54e2" name="controllerActions" visibility="private">
+        <ownedComment xmi:id="43903863-1c85-11e3-8460-2388508c54e2" annotatedElement="43973dd6-1c85-11e3-8460-2388508c54e2" body="Definiert eine Liste von Referenzen auf Controller-Actions, die das Modul ausführen darf. Die erste angegebene Action in dieser Liste ist die Standard-Action."/>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="439764ea-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="439d09ab-1c85-11e3-8460-2388508c54e2" name="" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439c464a-1c85-11e3-8460-2388508c54e2" name="base_Interface" visibility="private" association="438c6884-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="4394576c-1c85-11e3-8460-2388508c54e2" name="mainModule" visibility="private" type="438bcc3a-1c85-11e3-8460-2388508c54e2">
+        <ownedComment xmi:id="438c1a60-1c85-11e3-8460-2388508c54e2" annotatedElement="4394576c-1c85-11e3-8460-2388508c54e2" body="Ermöglicht die Auswahl eines Modulbereichs, in welchem das Modul zur Verfügung stehen soll."/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="438f7503-1c85-11e3-8460-2388508c54e2" name="" instance="438ed8b3-1c85-11e3-8460-2388508c54e2"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="4390fbc5-1c85-11e3-8460-2388508c54e2" name="position" visibility="private">
+        <ownedComment xmi:id="439a4b50-1c85-11e3-8460-2388508c54e2" annotatedElement="4390fbc5-1c85-11e3-8460-2388508c54e2" body="Gibt die Position des Moduls innerhalb des Modulbereichs an."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438e8b8b-1c85-11e3-8460-2388508c54e2" name="access" visibility="private" type="4395de2e-1c85-11e3-8460-2388508c54e2">
+        <ownedComment xmi:id="4390ad9d-1c85-11e3-8460-2388508c54e2" annotatedElement="438e8b8b-1c85-11e3-8460-2388508c54e2" body="Definiert eine Liste von Zugriffsberechtigungen für das Modul."/>
+        <lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="4390d4b3-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="438e3d65-1c85-11e3-8460-2388508c54e2" name="" value="*"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="43925b73-1c85-11e3-8460-2388508c54e2" name="" instance="4390868a-1c85-11e3-8460-2388508c54e2"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="438c6884-1c85-11e3-8460-2388508c54e2" name="" memberEnd="439c464a-1c85-11e3-8460-2388508c54e2 438f9c15-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="438f9c15-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="438f9c15-1c85-11e3-8460-2388508c54e2" name="extension_T3ExtbaseModule" visibility="private" type="439345e9-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="438c6884-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="4393940b-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="439cbb82-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_17_0_6_16b8041b_1410196294071_467516_1568" name="ExtbasePluginConfiguration">
+      <ownedAttribute xmi:id="_17_0_6_16b8041b_1410196299292_59397_1571" name="base_Interface" visibility="private" association="_17_0_6_16b8041b_1410196299292_648623_1570">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_17_0_6_16b8041b_1410383709868_640568_1921" name="switchableControllerActionIndex" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_17_0_6_16b8041b_1410196321456_106177_1598" name="switchableControllerActions" visibility="private">
+        <ownedComment xmi:id="_17_0_6_16b8041b_1410196321456_759987_1600" annotatedElement="_17_0_6_16b8041b_1410196321456_106177_1598" body="Definiert eine Liste von Referenzen auf Controller-Actions, die das Plugin ausführen darf. Die zurückgelieferten Inhalte werden im Cache von TYPO3 abgelegt. Die erste angegebene Action in dieser Liste ist die Standard-Action."/>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_6_16b8041b_1410196321456_227569_1601" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_6_16b8041b_1410196321456_298105_1599" name="" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_17_0_6_16b8041b_1410196299292_648623_1570" name="" memberEnd="_17_0_6_16b8041b_1410196299292_59397_1571 _17_0_6_16b8041b_1410196299292_993928_1572" navigableOwnedEnd="_17_0_6_16b8041b_1410196299292_993928_1572">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_17_0_6_16b8041b_1410196299292_993928_1572" name="extension_" visibility="private" type="_17_0_6_16b8041b_1410196294071_467516_1568" aggregation="composite" association="_17_0_6_16b8041b_1410196299292_648623_1570">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_6_16b8041b_1410196299292_403638_1573" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_6_16b8041b_1410196299292_956402_1574" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="4398c494-1c85-11e3-8460-2388508c54e2" name="Datatypes" URI="">
+    <packagedElement xmi:type="uml:Package" xmi:id="4398766c-1c85-11e3-8460-2388508c54e2" name="Mvc" URI="">
+      <packagedElement xmi:type="uml:Package" xmi:id="43919812-1c85-11e3-8460-2388508c54e2" name="Controller" URI="">
+        <packagedElement xmi:type="uml:Class" xmi:id="439716c2-1c85-11e3-8460-2388508c54e2" name="AbstractController"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="43903865-1c85-11e3-8460-2388508c54e2" name="ActionController"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="438e6479-1c85-11e3-8460-2388508c54e2" name="CommandController"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="438def3e-1c85-11e3-8460-2388508c54e2" name="ControllerInterface"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_17_0_6_8a7027a_1380209159185_991135_1913" name="CommandControllerInterface"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="4396efb0-1c85-11e3-8460-2388508c54e2" name="Validation" URI="">
+      <packagedElement xmi:type="uml:Package" xmi:id="438eb29e-1c85-11e3-8460-2388508c54e2" name="Validator" URI="">
+        <packagedElement xmi:type="uml:Class" xmi:id="4398c493-1c85-11e3-8460-2388508c54e2" name="AbstractValidator"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="43903862-1c85-11e3-8460-2388508c54e2" name="Persistence" URI="">
+      <packagedElement xmi:type="uml:Class" xmi:id="438d2bdd-1c85-11e3-8460-2388508c54e2" name="Repository"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_17_0_6_16b8041b_1409414045186_133995_1635" name="PersistenceManagerInterface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="439568f5-1c85-11e3-8460-2388508c54e2" name="Domain" URI="">
+      <packagedElement xmi:type="uml:Package" xmi:id="439912b6-1c85-11e3-8460-2388508c54e2" name="Model" URI="">
+        <packagedElement xmi:type="uml:Class" xmi:id="43901151-1c85-11e3-8460-2388508c54e2" name="FrontendUser"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="439c6d5e-1c85-11e3-8460-2388508c54e2" name="FrontendUserGroup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208140200_821773_1542" name="BackendUser"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208155647_256410_1543" name="BackendUserGroup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208591761_650072_1909" name="Category"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208600719_642465_1910" name="FileMount"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="4392d0ad-1c85-11e3-8460-2388508c54e2" name="Repository" URI="">
+        <packagedElement xmi:type="uml:Class" xmi:id="4399af03-1c85-11e3-8460-2388508c54e2" name="FrontendUserGroupRepository"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="439d57cf-1c85-11e3-8460-2388508c54e2" name="FrontendUserRepository"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208298383_172776_1546" name="BackendUserGroupRepository"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208298395_378670_1547" name="BackendUserRepository"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208778039_113485_1911" name="CategoryRepository"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_17_0_6_8a7027a_1380208786959_296502_1912" name="FileMountRepository"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="438ed8b4-1c85-11e3-8460-2388508c54e2" name="DomainObject" URI="">
+      <packagedElement xmi:type="uml:Class" xmi:id="4391980f-1c85-11e3-8460-2388508c54e2" name="AbstractEntity"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="439149eb-1c85-11e3-8460-2388508c54e2" name="AbstractValueObject"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_17_0_6_16b8041b_1409413964232_751250_1565" name="Configuration" URI="">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_17_0_6_16b8041b_1409413971969_931892_1568" name="ConfigurationManagerInterface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_17_0_6_16b8041b_1409413996651_581589_1598" name="Object" URI="">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_17_0_6_16b8041b_1409414011656_275731_1607" name="ObjectManagerInterface"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="439b5bda-1c85-11e3-8460-2388508c54e2" name="DomainModel" URI="">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="439ac08b-1c85-11e3-8460-2388508c54e2" name="ExtbaseDomainObject">
+      <ownedComment xmi:id="439960dd-1c85-11e3-8460-2388508c54e2" annotatedElement="439ac08b-1c85-11e3-8460-2388508c54e2" body="Der Stereotyp definiert die Klasse als Domänenobjekt nach dem Domain-Driven Design."/>
+      <ownedAttribute xmi:id="43940946-1c85-11e3-8460-2388508c54e2" name="base_Class" visibility="private" association="43973dd7-1c85-11e3-8460-2388508c54e2">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="43943057-1c85-11e3-8460-2388508c54e2" name="allowTableOnStandardPages" visibility="private">
+        <ownedComment xmi:id="4399fd2a-1c85-11e3-8460-2388508c54e2" annotatedElement="43943057-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob das Domänenobjekt auf normalen Seiten verwendet und somit erlaubt werden soll."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="439a9977-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438c4171-1c85-11e3-8460-2388508c54e2" name="createStarttimeField" visibility="private">
+        <ownedComment xmi:id="4391bf24-1c85-11e3-8460-2388508c54e2" annotatedElement="438c4171-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für das Domänenobjekt das Datenbankfeld &quot;starttime&quot; automatisch durch die Plattform erstellt und im Table Configuration Array konfiguriert werden soll. Dieses bestimmt den Zeitpunkt, ab dem das Domänenobjekt im Frontend sichtbar ist."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="4399d617-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="4390d4b2-1c85-11e3-8460-2388508c54e2" name="createEndtimeField" visibility="private">
+        <ownedComment xmi:id="4397b312-1c85-11e3-8460-2388508c54e2" annotatedElement="4390d4b2-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für das Domänenobjekt das Datenbankfeld &quot;endtime&quot; automatisch durch die Plattform erstellt und im Table Configuration Array konfiguriert werden soll. Dieses bestimmt den Zeitpunkt, ab dem das Domänenobjekt im Frontend unsichtbar ist."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="438c1a5f-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438ba528-1c85-11e3-8460-2388508c54e2" name="createHiddenField" visibility="private">
+        <ownedComment xmi:id="439b34c3-1c85-11e3-8460-2388508c54e2" annotatedElement="438ba528-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für das Domänenobjekt das Datenbankfeld &quot;hidden&quot; automatisch durch die Plattform erstellt und im Table Configuration Array konfiguriert werden soll. Dieses bestimmt, ob das Domänenobjekt im Frontend unsichtbar ist."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="43920d4a-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_17_0_6_8a7027a_1382455500433_275474_1568" name="createFeGroupField" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_17_0_6_8a7027a_1382455533874_266350_1579" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438def3c-1c85-11e3-8460-2388508c54e2" name="createSortingField" visibility="private">
+        <ownedComment xmi:id="438f4def-1c85-11e3-8460-2388508c54e2" annotatedElement="438def3c-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für das Domänenobjekt das Datenbankfeld &quot;sorting&quot; automatisch durch die Plattform erstellt und im Table Configuration Array konfiguriert werden soll. Dieses bestimmt die Sortierung der Domänenobjekte im Backend."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="439149ed-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="439764e8-1c85-11e3-8460-2388508c54e2" name="createLocalizationFields" visibility="private">
+        <ownedComment xmi:id="43943059-1c85-11e3-8460-2388508c54e2" annotatedElement="439764e8-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für das Domänenobjekt die notwendigen Datenbankfelder zur Lokalisierung automatisch durch die Plattform erstellt und im Table Configuration Array konfiguriert werden sollen."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="4394cca8-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="438e8b8c-1c85-11e3-8460-2388508c54e2" name="createVersioningFields" visibility="private">
+        <ownedComment xmi:id="439a7263-1c85-11e3-8460-2388508c54e2" annotatedElement="438e8b8c-1c85-11e3-8460-2388508c54e2" body="Legt fest, ob für das Domänenobjekt die notwendigen Datenbankfelder zur Versionierung automatisch durch die Plattform erstellt und im Table Configuration Array konfiguriert werden sollen."/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="438da116-1c85-11e3-8460-2388508c54e2" name=""/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="43973dd7-1c85-11e3-8460-2388508c54e2" name="" memberEnd="43940946-1c85-11e3-8460-2388508c54e2 4393940a-1c85-11e3-8460-2388508c54e2" navigableOwnedEnd="4393940a-1c85-11e3-8460-2388508c54e2">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="4393940a-1c85-11e3-8460-2388508c54e2" name="extension_T3ExtbaseDomainObject" visibility="private" type="439ac08b-1c85-11e3-8460-2388508c54e2" aggregation="composite" association="43973dd7-1c85-11e3-8460-2388508c54e2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="438fc328-1c85-11e3-8460-2388508c54e2" name=""/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="439122d8-1c85-11e3-8460-2388508c54e2" name="" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>

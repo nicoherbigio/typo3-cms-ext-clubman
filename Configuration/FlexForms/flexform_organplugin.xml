@@ -1,0 +1,52 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_organplugin.xlf:sheet.sDEF</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+                        <TCEforms>
+                            <label>LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_organplugin.xlf:switchableControllerAction</label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                	<numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_organplugin.xlf:switchableControllerAction.OrganShowMembersPluginConfiguration</numIndex>
+                                        <numIndex index="1">Organ->showMembers</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </switchableControllerActions>
+					<settings.organ>
+						<TCEforms>
+							<exclude>false</exclude>
+							<label>LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_organplugin.xlf:setting.organ</label>
+							<!-- PROTECTED REGION ID(flexform.xml.own.sheet.element.code._18_0_5_16b8041b_1470660297100_951820_6322) ENABLED START -->
+							<!-- PROTECTED REGION END -->
+							<config>
+								<!-- PROTECTED REGION ID(flexform.xml.own.sheet.element.config.code._18_0_5_16b8041b_1470660297100_951820_6322) START -->
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>tx_clubman_domain_model_organ</allowed>
+								<disallowed></disallowed>
+								<size>1</size>
+								<minitems>1</minitems>
+								<maxitems>1</maxitems>
+								<!-- PROTECTED REGION END -->
+							</config>
+						</TCEforms>
+					</settings.organ>
+					<!-- PROTECTED REGION ID(flexform.xml.own.sheet.element.code.sDEF._18_0_5_16b8041b_1470660328003_621225_6327) ENABLED START -->
+					<!-- PROTECTED REGION END -->
+				</el>
+			</ROOT>
+		</sDEF>
+		<!-- PROTECTED REGION ID(flexform.xml.own.code._18_0_5_16b8041b_1470660328003_621225_6327) ENABLED START -->
+		<!-- PROTECTED REGION END -->
+	</sheets>
+</T3DataStructure>

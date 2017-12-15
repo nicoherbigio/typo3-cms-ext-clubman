@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	(c) Nico Herbig (Systemmacher)
+	All rights reserved.
+-->
+
+<!--
+	Project-specific Type Mapping.
+
+	@author	Nico Herbig <webmaster@systemmacher.de> (Maintainer)
+-->
+
+<tns:typeMapping xmlns:tns="http://www.genesez.org/typemapping"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<tns:include>
+		<tns:file>org/genesez/platform/typo3/cms/mvc/typemapping/typemapping.xml</tns:file>
+	</tns:include>
+
+	<tns:externalTypes>
+
+		<tns:type from="Date">
+			<tns:to>\DateTime</tns:to>
+			<tns:context name="SqlColumnType">int(11) unsigned DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">Date</tns:context>
+		</tns:type>
+		<tns:type from="DateTime">
+			<tns:to>\DateTime</tns:to>
+			<tns:context name="SqlColumnType">int(11) unsigned DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">DateTime</tns:context>
+		</tns:type>
+
+		<tns:type from="Email">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(100) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+
+		<tns:type from="Float">
+			<tns:to>float</tns:to>
+			<tns:context name="SqlColumnType">double(11,2) DEFAULT '0.00' NOT NULL</tns:context>
+			<tns:context name="GuiType">Float</tns:context>
+		</tns:type>
+
+		<tns:type from="Integer">
+			<tns:to>int</tns:to>
+			<tns:context name="SqlColumnType">int(11) DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">Integer</tns:context>
+		</tns:type>
+
+		<tns:type from="String">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(500) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+
+		<tns:type from="String20">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(20) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String40">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(40) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String50">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(50) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String80">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(80) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String100">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(100) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String150">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(150) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String200">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(200) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String250">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(250) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+		<tns:type from="String500">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(500) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+
+		<tns:type from="Url">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">varchar(200) DEFAULT '' NOT NULL</tns:context>
+			<tns:context name="GuiType">String</tns:context>
+		</tns:type>
+
+
+		<!-- We used the type "TextType" and declared it as "External" within the UML model. -->
+		<tns:type from="Text">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">text NOT NULL</tns:context>
+			<tns:context name="GuiType">Text</tns:context>
+		</tns:type>
+		<tns:type from="Text500">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">text NOT NULL</tns:context>
+			<tns:context name="GuiType">Text</tns:context>
+		</tns:type>
+		<tns:type from="Text800">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">text NOT NULL</tns:context>
+			<tns:context name="GuiType">Text</tns:context>
+		</tns:type>
+		<tns:type from="Text2000">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">text NOT NULL</tns:context>
+			<tns:context name="GuiType">Text</tns:context>
+		</tns:type>
+		<tns:type from="Text3000">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">text NOT NULL</tns:context>
+			<tns:context name="GuiType">Text</tns:context>
+		</tns:type>
+		<tns:type from="Text4000">
+			<tns:to>string</tns:to>
+			<tns:context name="SqlColumnType">text NOT NULL</tns:context>
+			<tns:context name="GuiType">Text</tns:context>
+		</tns:type>
+
+		<tns:type from="SortingType">
+			<tns:to>int</tns:to>
+			<tns:context name="SqlColumnType">int(11) DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">Passthrough</tns:context>
+		</tns:type>
+
+
+		<tns:type from="Typo3Page">
+			<tns:to>int</tns:to>
+			<tns:context name="SqlColumnType">int(11) DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">Database</tns:context>
+		</tns:type>
+
+
+
+		<tns:type from="FileMetaData">
+			<tns:to>\TYPO3\CMS\Extbase\DomainObject\AbstractEntity</tns:to>
+			<tns:context name="SqlTableName">sys_file_metadata</tns:context>
+		</tns:type>
+
+
+
+		<tns:type from="FileReference">
+			<tns:to>\TYPO3\CMS\Extbase\Domain\Model\FileReference</tns:to>
+			<tns:context name="SqlColumnType">int(11) unsigned DEFAULT '0' NOT NULL</tns:context>
+			<tns:context name="GuiType">FalFileReference</tns:context>
+		</tns:type>
+
+		<tns:type from="Query">
+			<tns:to>\TYPO3\CMS\Extbase\Persistence\Generic\Query</tns:to>
+		</tns:type>
+
+		<tns:type from="QueryResult">
+			<tns:to>\TYPO3\CMS\Extbase\Persistence\Generic\QueryResult</tns:to>
+		</tns:type>
+
+		<tns:type from="FloatConverter">
+			<tns:to>\TYPO3\CMS\Extbase\Property\TypeConverter\FloatConverter</tns:to>
+		</tns:type>
+
+
+		<tns:type from="ReflectionService">
+			<tns:to>\TYPO3\CMS\Extbase\Reflection\ReflectionService</tns:to>
+		</tns:type>
+
+		<tns:type from="DomainObjectInterface">
+			<tns:to>\TYPO3\CMS\Extbase\DomainObject\DomainObjectInterface</tns:to>
+		</tns:type>
+
+
+		<tns:type from="AbstractFormFieldViewHelper">
+			<tns:to>\TYPO3\CMS\Fluid\ViewHelpers\Form\AbstractFormFieldViewHelper</tns:to>
+		</tns:type>
+
+		<tns:type from="TextareaViewHelper">
+			<tns:to>\TYPO3\CMS\Fluid\ViewHelpers\Form\TextareaViewHelper</tns:to>
+		</tns:type>
+
+		<tns:type from="TextfieldViewHelper">
+			<tns:to>\TYPO3\CMS\Fluid\ViewHelpers\Form\TextfieldViewHelper</tns:to>
+		</tns:type>
+
+		<tns:type from="RenderViewHelper">
+			<tns:to>\TYPO3\CMS\Fluid\ViewHelpers\RenderViewHelper</tns:to>
+		</tns:type>
+
+	</tns:externalTypes>
+</tns:typeMapping>

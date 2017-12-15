@@ -1,0 +1,43 @@
+{
+  "name": "clubman",
+  "description": "ClubMan - Club Management",
+
+  "moduleType": "node",
+  "private": true,
+
+  "keywords": ["TYPO3 CMS", "Nico Herbig", "Club Management", "Team Management"],
+  "homepage": "https://github.com/nicoherbigio/typo3-cms-ext-clubman",
+  "license": "GPL-2.0+",
+
+  "authors": [
+    {
+      "name": "Nico Herbig",
+      "email": "info@nicoherbig.io",
+      "homepage": "https://www.nicoherbig.io",
+      "role": "Developer"
+    }
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicoherbigio/typo3-cms-ext-clubman.git"
+  },
+
+  "main": [
+    "Resources/Public/JavaScripts/clubman.js",
+    "Resources/Public/StyleSheets/clubman.css"
+  ],
+
+  "ignore": [
+    ".buildpath", ".classpath", ".project", ".settings", "META-INF",
+    ".idea",
+
+    ".gitignore"
+  ],
+
+  "dependencies": {
+  },
+
+  "devDependencies": {
+  }
+}

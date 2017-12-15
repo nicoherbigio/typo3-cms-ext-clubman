@@ -1,0 +1,56 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_teamplugin.xlf:sheet.sDEF</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+                        <TCEforms>
+                            <label>LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_teamplugin.xlf:switchableControllerAction</label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                	<numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_teamplugin.xlf:switchableControllerAction.TeamShowTeammatesPluginConfiguration</numIndex>
+                                        <numIndex index="1">Team->showTeammates</numIndex>
+                                    </numIndex>
+                                	<numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_teamplugin.xlf:switchableControllerAction.TeamShowDirectorsPluginConfiguration</numIndex>
+                                        <numIndex index="1">Team->showDirectors</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </switchableControllerActions>
+					<settings.team>
+						<TCEforms>
+							<exclude>false</exclude>
+							<label>LLL:EXT:clubman/Resources/Private/Language/locallang_plugin_teamplugin.xlf:setting.team</label>
+							<!-- PROTECTED REGION ID(flexform.xml.own.sheet.element.code._18_0_5_16b8041b_1454259478298_784677_6314) ENABLED START -->
+							<!-- PROTECTED REGION END -->
+							<config>
+								<!-- PROTECTED REGION ID(flexform.xml.own.sheet.element.config.code._18_0_5_16b8041b_1454259478298_784677_6314) START -->
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>tx_clubman_domain_model_team</allowed>
+								<disallowed></disallowed>
+								<size>1</size>
+								<minitems>1</minitems>
+								<maxitems>1</maxitems>
+								<!-- PROTECTED REGION END -->
+							</config>
+						</TCEforms>
+					</settings.team>
+					<!-- PROTECTED REGION ID(flexform.xml.own.sheet.element.code.sDEF._18_0_5_16b8041b_1454259201741_533743_6208) ENABLED START -->
+					<!-- PROTECTED REGION END -->
+				</el>
+			</ROOT>
+		</sDEF>
+		<!-- PROTECTED REGION ID(flexform.xml.own.code._18_0_5_16b8041b_1454259201741_533743_6208) ENABLED START -->
+		<!-- PROTECTED REGION END -->
+	</sheets>
+</T3DataStructure>

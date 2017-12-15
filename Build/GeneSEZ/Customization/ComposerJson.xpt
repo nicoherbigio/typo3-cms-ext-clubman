@@ -1,0 +1,54 @@
+«REM»
+	(c) Nico Herbig (Systemmacher)
+	All rights reserved.
+«ENDREM»
+
+«IMPORT gcore»
+
+
+«REM»
+	Aspect registration.
+
+	@author	Nico Herbig <webmaster@systemmacher.de> (Maintainer)
+«ENDREM»
+
+
+«REM»
+	-- Public Templates (THE FOLLOWING TEMPLATES CAN BE INVOKED FROM OUTSIDE OF THIS FILE) ------------------
+«ENDREM»
+
+
+«REM»
+«ENDREM»
+«AROUND org::genesez::platform::typo3::cms::mvc::m2t::ComposerJson::Keywords FOR MModel -»
+  "keywords": ["TYPO3 CMS", "Systemmacher", "Nico Herbig"],
+«ENDAROUND»
+
+
+«REM»
+«ENDREM»
+«AROUND org::genesez::platform::typo3::cms::mvc::m2t::ComposerJson::Homepage FOR MModel -»
+  "homepage": "https://github.com/nico-herbig/typo3cms-ext-clubman",
+«ENDAROUND»
+
+
+«REM»
+«ENDREM»
+«AROUND org::genesez::platform::typo3::cms::mvc::m2t::ComposerJson::OwnCode FOR MModel -»
+  "authors": [
+    {
+      "name": "Nico Herbig",
+      "email": "webmaster@systemmacher.de",
+      "homepage": "https://www.systemmacher.de",
+      "role": "Developer"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/nico-herbig/typo3cms-ext-clubman/issues"
+  },
+
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.0"
+  },
+«ENDAROUND»

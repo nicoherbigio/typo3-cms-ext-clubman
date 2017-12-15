@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TYPO3 CMS Extension clubman
+Bundle-SymbolicName: typo3-cms-ext-clubman
+Bundle-Version: 1.0.0
+Bundle-Vendor: Nico Herbig (NicoHerbig.io)
+Require-Bundle: org.genesez.adapter.uml2;bundle-version="[3.1.0,4.0.0)",
+ org.genesez.platform.typo3;bundle-version="[3.0.0,4.0.0)"

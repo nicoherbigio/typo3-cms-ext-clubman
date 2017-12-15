@@ -1,0 +1,47 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:cm="http://typo3.org/ns/NicoHerbigIo/Clubman/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<h2 class="heading-primary">Sportliche <strong>Leitung</strong></h2>
+
+<div class="rowwww">
+    <div class="row team-listt sort-destinationn list-unstyleddd" data-sort-idd="directors">
+        <f:for each="{directors}" as="director" iteration="directorIterator">
+            <div class="col-sm-6 col-md-12 directorss">
+                <span class="thumb-info thumb-info-hide-wrapper-bg {f:if(condition: directorIterator.isLast, else: ' mb-lg')}">
+                    <span class="thumb-info-wrapper">
+                        <f:if condition="{director.member.picture}">
+                            <f:then>
+                                <img src="{director.member.picture.originalResource.publicUrl}" class="img-responsive" alt="">
+                            </f:then>
+                            <f:else>
+                                <img src="{settings.member.dummyImage}" class="img-responsive" alt="">
+                            </f:else>
+                        </f:if>
+                        <span class="thumb-info-title">
+                            <span class="thumb-info-inner">{director.member.firstName} {director.member.lastName}</span>
+                            <span class="thumb-info-type">{director.genderedPosition}</span>
+                        </span>
+                    </span>
+                    <f:if condition="{director.member.communicationData}">
+                        <span class="thumb-info-caption">
+                            <span class="thumb-info-caption-text">
+                                <ul class="list list-icons list-icons-style-3 mb-none">
+                                    <f:if condition="{director.member.correspondenceEMail}">
+                                        <li style="margin-bottom:0"><i class="fa fa-envelope"></i> <f:link.email email="{director.member.correspondenceEMail.email}" /></li>
+                                    </f:if>
+                                    <f:if condition="{director.member.correspondenceTelephone}">
+                                        <li style="margin-bottom:0"><i class="fa fa-phone"></i> {director.member.correspondenceTelephone.telephone}</li>
+                                    </f:if>
+                                </ul>
+                            </span>
+                        </span>
+                    </f:if>
+                </span>
+            </div>
+        </f:for>
+    </div>
+</div>
+
+
+</html>

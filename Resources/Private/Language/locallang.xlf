@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-31T00:00Z" product-name="clubman">
+		<header/>
+		<body>
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractMembership" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470536486595_769306_6430) START -->
+			<trans-unit id="domain_model_abstractMembership" xml:space="preserve">
+				<source>AbstractMembership</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractMembership.member" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323652731_552331_6650) START -->
+			<trans-unit id="domain_model_abstractMembership.member" xml:space="preserve">
+				<source>Member</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractMembership.sorting" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1471968467988_150427_6379) START -->
+			<trans-unit id="domain_model_abstractMembership.sorting" xml:space="preserve">
+				<source>Sorting</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractMembership.description" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1471432034356_905817_6290) START -->
+			<trans-unit id="domain_model_abstractMembership.description" xml:space="preserve">
+				<source>Description</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractPosition" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470534983035_306503_6355) START -->
+			<trans-unit id="domain_model_abstractPosition" xml:space="preserve">
+				<source>AbstractPosition</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractPosition.label" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323452483_824955_6516) START -->
+			<trans-unit id="domain_model_abstractPosition.label" xml:space="preserve">
+				<source>Label</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractPosition.maleLabel" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323454204_972642_6520) START -->
+			<trans-unit id="domain_model_abstractPosition.maleLabel" xml:space="preserve">
+				<source>MaleLabel</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_abstractPosition.femaleLabel" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323455914_913116_6524) START -->
+			<trans-unit id="domain_model_abstractPosition.femaleLabel" xml:space="preserve">
+				<source>FemaleLabel</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462443181458_167201_5934) START -->
+			<trans-unit id="domain_model_address" xml:space="preserve">
+				<source>Address</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.isCorrespondence" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699604805_349825_6366) START -->
+			<trans-unit id="domain_model_address.isCorrespondence" xml:space="preserve">
+				<source>IsCorrespondence</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.street" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1452867893316_900575_6205) START -->
+			<trans-unit id="domain_model_address.street" xml:space="preserve">
+				<source>Street</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.streetNumber" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1452867897433_817259_6209) START -->
+			<trans-unit id="domain_model_address.streetNumber" xml:space="preserve">
+				<source>StreetNumber</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.roomNumber" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1452872612278_741826_6398) START -->
+			<trans-unit id="domain_model_address.roomNumber" xml:space="preserve">
+				<source>RoomNumber</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.postalCode" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1452867900122_993219_6213) START -->
+			<trans-unit id="domain_model_address.postalCode" xml:space="preserve">
+				<source>PostalCode</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.locality" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1452867904195_684930_6217) START -->
+			<trans-unit id="domain_model_address.locality" xml:space="preserve">
+				<source>Locality</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.subLocality" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1453226033226_52998_6134) START -->
+			<trans-unit id="domain_model_address.subLocality" xml:space="preserve">
+				<source>SubLocality</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.country" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463643685304_925656_6279) START -->
+			<trans-unit id="domain_model_address.country" xml:space="preserve">
+				<source>Country</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.type" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462443386016_566123_6054) START -->
+			<trans-unit id="domain_model_address.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462443316472_151585_6000) START -->
+			<trans-unit id="domain_model_address.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.member" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134001103_568270_7023) START -->
+			<trans-unit id="domain_model_address.member" xml:space="preserve">
+				<source>Member</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_address.contactPerson" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645689176_501801_7090) START -->
+			<trans-unit id="domain_model_address.contactPerson" xml:space="preserve">
+				<source>ContactPerson</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_addressType" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462443219942_310437_5962) START -->
+			<trans-unit id="domain_model_addressType" xml:space="preserve">
+				<source>AddressType</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_addressType.label" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700255933_391689_6626) START -->
+			<trans-unit id="domain_model_addressType.label" xml:space="preserve">
+				<source>Label</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427811727296_159662_7564) START -->
+			<trans-unit id="domain_model_club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.name" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427812136810_953095_7667) START -->
+			<trans-unit id="domain_model_club.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.shortName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427812161909_226637_7669) START -->
+			<trans-unit id="domain_model_club.shortName" xml:space="preserve">
+				<source>ShortName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.number" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463588038396_940799_6247) START -->
+			<trans-unit id="domain_model_club.number" xml:space="preserve">
+				<source>Number</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.teams" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427812942192_108510_7941) START -->
+			<trans-unit id="domain_model_club.teams" xml:space="preserve">
+				<source>Teams</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.addresses" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462443316472_737151_5999) START -->
+			<trans-unit id="domain_model_club.addresses" xml:space="preserve">
+				<source>Addresses</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.telephones" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700288440_142471_6640) START -->
+			<trans-unit id="domain_model_club.telephones" xml:space="preserve">
+				<source>Telephones</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.emails" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700350452_478747_6695) START -->
+			<trans-unit id="domain_model_club.emails" xml:space="preserve">
+				<source>Emails</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.websites" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700443518_65417_6750) START -->
+			<trans-unit id="domain_model_club.websites" xml:space="preserve">
+				<source>Websites</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.members" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463246416948_302595_6009) START -->
+			<trans-unit id="domain_model_club.members" xml:space="preserve">
+				<source>Members</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_club.organs" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323906546_308615_6775) START -->
+			<trans-unit id="domain_model_club.organs" xml:space="preserve">
+				<source>Organs</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645486769_885489_6907) START -->
+			<trans-unit id="domain_model_contactPerson" xml:space="preserve">
+				<source>ContactPerson</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.gender" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645548244_15986_6936) START -->
+			<trans-unit id="domain_model_contactPerson.gender" xml:space="preserve">
+				<source>Gender</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.academicDegree" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645563580_134517_6940) START -->
+			<trans-unit id="domain_model_contactPerson.academicDegree" xml:space="preserve">
+				<source>AcademicDegree</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.formOfAddress" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645566336_375652_6944) START -->
+			<trans-unit id="domain_model_contactPerson.formOfAddress" xml:space="preserve">
+				<source>FormOfAddress</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.firstName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645568654_363102_6948) START -->
+			<trans-unit id="domain_model_contactPerson.firstName" xml:space="preserve">
+				<source>FirstName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.lastName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645570937_679214_6952) START -->
+			<trans-unit id="domain_model_contactPerson.lastName" xml:space="preserve">
+				<source>LastName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.birthday" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645578351_675970_6956) START -->
+			<trans-unit id="domain_model_contactPerson.birthday" xml:space="preserve">
+				<source>Birthday</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.picture" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463646211808_248416_7170) START -->
+			<trans-unit id="domain_model_contactPerson.picture" xml:space="preserve">
+				<source>Picture</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.positionInCompany" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463648436449_328426_7276) START -->
+			<trans-unit id="domain_model_contactPerson.positionInCompany" xml:space="preserve">
+				<source>PositionInCompany</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.formOfEmployment" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463648439193_11896_7278) START -->
+			<trans-unit id="domain_model_contactPerson.formOfEmployment" xml:space="preserve">
+				<source>FormOfEmployment</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.legalMember" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645486780_241512_6910) START -->
+			<trans-unit id="domain_model_contactPerson.legalMember" xml:space="preserve">
+				<source>LegalMember</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.websites" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645670205_167197_6990) START -->
+			<trans-unit id="domain_model_contactPerson.websites" xml:space="preserve">
+				<source>Websites</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.emails" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645677203_179465_7023) START -->
+			<trans-unit id="domain_model_contactPerson.emails" xml:space="preserve">
+				<source>Emails</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.telephones" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645680498_563118_7056) START -->
+			<trans-unit id="domain_model_contactPerson.telephones" xml:space="preserve">
+				<source>Telephones</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_contactPerson.addresses" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645689176_846163_7089) START -->
+			<trans-unit id="domain_model_contactPerson.addresses" xml:space="preserve">
+				<source>Addresses</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_directorMembership" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470388653851_326892_6837) START -->
+			<trans-unit id="domain_model_directorMembership" xml:space="preserve">
+				<source>DirectorMembership</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_directorMembership.position" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470388891151_143798_6975) START -->
+			<trans-unit id="domain_model_directorMembership.position" xml:space="preserve">
+				<source>Position</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_directorMembership.team" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470389011077_659043_7048) START -->
+			<trans-unit id="domain_model_directorMembership.team" xml:space="preserve">
+				<source>Team</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_directorPosition" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470388668632_172768_6859) START -->
+			<trans-unit id="domain_model_directorPosition" xml:space="preserve">
+				<source>DirectorPosition</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699524705_127812_6279) START -->
+			<trans-unit id="domain_model_eMail" xml:space="preserve">
+				<source>EMail</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail.isCorrespondence" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699893501_91839_6393) START -->
+			<trans-unit id="domain_model_eMail.isCorrespondence" xml:space="preserve">
+				<source>IsCorrespondence</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail.email" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699984724_120633_6474) START -->
+			<trans-unit id="domain_model_eMail.email" xml:space="preserve">
+				<source>Email</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail.type" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700091716_504346_6531) START -->
+			<trans-unit id="domain_model_eMail.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700350452_642384_6696) START -->
+			<trans-unit id="domain_model_eMail.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail.member" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134008377_459252_7089) START -->
+			<trans-unit id="domain_model_eMail.member" xml:space="preserve">
+				<source>Member</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMail.contactPerson" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645677203_827949_7024) START -->
+			<trans-unit id="domain_model_eMail.contactPerson" xml:space="preserve">
+				<source>ContactPerson</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMailType" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699585059_527242_6323) START -->
+			<trans-unit id="domain_model_eMailType" xml:space="preserve">
+				<source>EMailType</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_eMailType.label" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699738821_455966_6381) START -->
+			<trans-unit id="domain_model_eMailType.label" xml:space="preserve">
+				<source>Label</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_legalMember" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463133671005_50507_6712) START -->
+			<trans-unit id="domain_model_legalMember" xml:space="preserve">
+				<source>LegalMember</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_legalMember.name" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463133796633_467553_6981) START -->
+			<trans-unit id="domain_model_legalMember.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_legalMember.contactPersons" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645486780_829045_6909) START -->
+			<trans-unit id="domain_model_legalMember.contactPersons" xml:space="preserve">
+				<source>ContactPersons</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427040492147_818624_7401) START -->
+			<trans-unit id="domain_model_member" xml:space="preserve">
+				<source>Member</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.number" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463133759464_105593_6977) START -->
+			<trans-unit id="domain_model_member.number" xml:space="preserve">
+				<source>Number</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.dateOfJoining" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463643948650_981940_6297) START -->
+			<trans-unit id="domain_model_member.dateOfJoining" xml:space="preserve">
+				<source>DateOfJoining</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.dateOfLeaving" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463647769093_84698_7268) START -->
+			<trans-unit id="domain_model_member.dateOfLeaving" xml:space="preserve">
+				<source>DateOfLeaving</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.picture" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1454056737260_374451_6267) START -->
+			<trans-unit id="domain_model_member.picture" xml:space="preserve">
+				<source>Picture</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.frontendUser" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1428077896230_533563_5642) START -->
+			<trans-unit id="domain_model_member.frontendUser" xml:space="preserve">
+				<source>FrontendUser</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.addresses" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134001102_835571_7022) START -->
+			<trans-unit id="domain_model_member.addresses" xml:space="preserve">
+				<source>Addresses</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.telephones" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134004829_759026_7055) START -->
+			<trans-unit id="domain_model_member.telephones" xml:space="preserve">
+				<source>Telephones</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.emails" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134008377_17268_7088) START -->
+			<trans-unit id="domain_model_member.emails" xml:space="preserve">
+				<source>Emails</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.websites" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134014305_836943_7121) START -->
+			<trans-unit id="domain_model_member.websites" xml:space="preserve">
+				<source>Websites</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_member.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463246416948_55375_6010) START -->
+			<trans-unit id="domain_model_member.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463133656088_299034_6707) START -->
+			<trans-unit id="domain_model_naturalMember" xml:space="preserve">
+				<source>NaturalMember</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.lastName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427322925394_877975_5566) START -->
+			<trans-unit id="domain_model_naturalMember.lastName" xml:space="preserve">
+				<source>LastName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.firstName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427322912188_441380_5564) START -->
+			<trans-unit id="domain_model_naturalMember.firstName" xml:space="preserve">
+				<source>FirstName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.gender" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1445783193387_369009_7960) START -->
+			<trans-unit id="domain_model_naturalMember.gender" xml:space="preserve">
+				<source>Gender</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.academicDegree" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427817874449_485160_8521) START -->
+			<trans-unit id="domain_model_naturalMember.academicDegree" xml:space="preserve">
+				<source>AcademicDegree</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.formOfAddress" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1453225553728_751994_6100) START -->
+			<trans-unit id="domain_model_naturalMember.formOfAddress" xml:space="preserve">
+				<source>FormOfAddress</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.birthday" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462393212647_51443_6743) START -->
+			<trans-unit id="domain_model_naturalMember.birthday" xml:space="preserve">
+				<source>Birthday</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.nameOfCompany" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463646475664_574659_7260) START -->
+			<trans-unit id="domain_model_naturalMember.nameOfCompany" xml:space="preserve">
+				<source>NameOfCompany</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.positionInCompany" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463646569840_227936_7264) START -->
+			<trans-unit id="domain_model_naturalMember.positionInCompany" xml:space="preserve">
+				<source>PositionInCompany</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_naturalMember.formOfEmployment" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463646601169_88182_7266) START -->
+			<trans-unit id="domain_model_naturalMember.formOfEmployment" xml:space="preserve">
+				<source>FormOfEmployment</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organ" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323265695_52451_6458) START -->
+			<trans-unit id="domain_model_organ" xml:space="preserve">
+				<source>Organ</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organ.name" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323359468_376952_6481) START -->
+			<trans-unit id="domain_model_organ.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organ.shortName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323361481_522595_6485) START -->
+			<trans-unit id="domain_model_organ.shortName" xml:space="preserve">
+				<source>ShortName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organ.members" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323564060_586107_6570) START -->
+			<trans-unit id="domain_model_organ.members" xml:space="preserve">
+				<source>Members</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organ.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323906546_382642_6776) START -->
+			<trans-unit id="domain_model_organ.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organMembership" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323537598_771862_6540) START -->
+			<trans-unit id="domain_model_organMembership" xml:space="preserve">
+				<source>OrganMembership</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organMembership.organ" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323564060_76943_6571) START -->
+			<trans-unit id="domain_model_organMembership.organ" xml:space="preserve">
+				<source>Organ</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organMembership.position" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323683389_662013_6699) START -->
+			<trans-unit id="domain_model_organMembership.position" xml:space="preserve">
+				<source>Position</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_organPosition" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470323416806_341235_6494) START -->
+			<trans-unit id="domain_model_organPosition" xml:space="preserve">
+				<source>OrganPosition</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_team" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427040480526_106549_7357) START -->
+			<trans-unit id="domain_model_team" xml:space="preserve">
+				<source>Team</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_team.name" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427322898753_144846_5562) START -->
+			<trans-unit id="domain_model_team.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_team.shortName" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427322954120_643750_5572) START -->
+			<trans-unit id="domain_model_team.shortName" xml:space="preserve">
+				<source>ShortName</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_team.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1427812942192_793390_7942) START -->
+			<trans-unit id="domain_model_team.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_team.teammates" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1445778474252_384766_7015) START -->
+			<trans-unit id="domain_model_team.teammates" xml:space="preserve">
+				<source>Teammates</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_team.directors" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1470389011077_876896_7047) START -->
+			<trans-unit id="domain_model_team.directors" xml:space="preserve">
+				<source>Directors</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_teamMembership" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1445776281997_481470_6925) START -->
+			<trans-unit id="domain_model_teamMembership" xml:space="preserve">
+				<source>TeamMembership</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_teamMembership.number" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463675073099_130516_6654) START -->
+			<trans-unit id="domain_model_teamMembership.number" xml:space="preserve">
+				<source>Number</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_teamMembership.team" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1445778474253_486158_7016) START -->
+			<trans-unit id="domain_model_teamMembership.team" xml:space="preserve">
+				<source>Team</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_teamMembership.position" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1445787977703_866708_8324) START -->
+			<trans-unit id="domain_model_teamMembership.position" xml:space="preserve">
+				<source>Position</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_teamPosition" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_3_16b8041b_1445776367732_802360_6947) START -->
+			<trans-unit id="domain_model_teamPosition" xml:space="preserve">
+				<source>TeamPosition</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699429685_655128_6225) START -->
+			<trans-unit id="domain_model_telephone" xml:space="preserve">
+				<source>Telephone</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone.isCorrespondence" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699888049_898129_6389) START -->
+			<trans-unit id="domain_model_telephone.isCorrespondence" xml:space="preserve">
+				<source>IsCorrespondence</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone.telephone" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699954877_982867_6422) START -->
+			<trans-unit id="domain_model_telephone.telephone" xml:space="preserve">
+				<source>Telephone</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone.type" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700087361_904518_6498) START -->
+			<trans-unit id="domain_model_telephone.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700288440_396046_6641) START -->
+			<trans-unit id="domain_model_telephone.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone.member" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134004830_371776_7056) START -->
+			<trans-unit id="domain_model_telephone.member" xml:space="preserve">
+				<source>Member</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephone.contactPerson" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645680498_32413_7057) START -->
+			<trans-unit id="domain_model_telephone.contactPerson" xml:space="preserve">
+				<source>ContactPerson</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephoneType" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699512562_969635_6257) START -->
+			<trans-unit id="domain_model_telephoneType" xml:space="preserve">
+				<source>TelephoneType</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_telephoneType.label" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462443231889_631713_5983) START -->
+			<trans-unit id="domain_model_telephoneType.label" xml:space="preserve">
+				<source>Label</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699578032_893002_6301) START -->
+			<trans-unit id="domain_model_website" xml:space="preserve">
+				<source>Website</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website.isCorrespondence" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699899417_234358_6397) START -->
+			<trans-unit id="domain_model_website.isCorrespondence" xml:space="preserve">
+				<source>IsCorrespondence</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website.website" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699971227_562789_6448) START -->
+			<trans-unit id="domain_model_website.website" xml:space="preserve">
+				<source>Website</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website.type" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700097290_97800_6564) START -->
+			<trans-unit id="domain_model_website.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website.club" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462700443518_191888_6751) START -->
+			<trans-unit id="domain_model_website.club" xml:space="preserve">
+				<source>Club</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website.member" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463134014305_740133_7122) START -->
+			<trans-unit id="domain_model_website.member" xml:space="preserve">
+				<source>Member</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_website.contactPerson" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1463645670206_317519_6991) START -->
+			<trans-unit id="domain_model_website.contactPerson" xml:space="preserve">
+				<source>ContactPerson</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_websiteType" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699590922_247802_6345) START -->
+			<trans-unit id="domain_model_websiteType" xml:space="preserve">
+				<source>WebsiteType</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+			<!-- GeneSEZ Generator Hint: id="domain_model_websiteType.label" -->
+			<!-- PROTECTED REGION ID(locallang.xlf.en._18_0_5_16b8041b_1462699675159_792672_6372) START -->
+			<trans-unit id="domain_model_websiteType.label" xml:space="preserve">
+				<source>Label</source>
+			</trans-unit>
+			<!-- PROTECTED REGION END -->
+
+
+			<!-- PROTECTED REGION ID(locallang.xlf.en.own.localizations._18_0_3_16b8041b_1427039393754_974137_6523) ENABLED START -->
+			<!-- PROTECTED REGION END -->
+		</body>
+	</file>
+</xliff>

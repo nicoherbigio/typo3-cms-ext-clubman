@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gcore:MModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gcore="http://genesez.org/metamodel/core" xsi:schemaLocation="http://genesez.org/metamodel/core java://org.genesez.metamodel.gcore.GcorePackage" name="clubman" xmiGuid="_18_0_3_16b8041b_1427039393754_974137_6523" stereotype="4d8cae4b-1c85-11e3-8460-2388508c54e2">
+  <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393764_723857_6533" annotation="Author:Generative Software Engineering Zwickau.&#xA;Created:9/13/13 4:23 PM.&#xA;Title:Research Database: University of Applied Sciences Zwickau.&#xA;Comment:(c) GeneSEZ Research Group &#xA;All rights reserved. &#xA;&#xA;Licensed according to GeneSEZ License Terms &lt;http://www.genesez.org/en/license> &#xA;&#xA;@author Nico Herbig &lt;nico.herbig@fh-zwickau.de> (maintainer)&#xA;@author Tobias Haubold &lt;tobias.haubold@fh-zwickau.de> (maintainer)&#xA;@author Michael Klenner &lt;michael.klenner@fh-zwickau.de> (maintainer).&#xA;"/>
+  <taggedValue value="ClubMan - Club Management" tag="//@anyStereotype.0/@property.0"/>
+  <taggedValue value="ClubMan - A Club Management Extension" tag="//@anyStereotype.0/@property.1"/>
+  <taggedValue value="PLUGIN" tag="//@anyStereotype.0/@property.2"/>
+  <taggedValue value="Nico Herbig" tag="//@anyStereotype.0/@property.3"/>
+  <taggedValue value="webmaster@systemmacher.de" tag="//@anyStereotype.0/@property.4"/>
+  <taggedValue value="Systemmacher" tag="//@anyStereotype.0/@property.5"/>
+  <taggedValue value="ALPHA" tag="//@anyStereotype.0/@property.6"/>
+  <taggedValue value="false" tag="//@anyStereotype.0/@property.7"/>
+  <taggedValue value="typo3 : 7.6.0-7.99.99" tag="//@anyStereotype.0/@property.9"/>
+  <taggedValue value="false" tag="//@anyStereotype.0/@property.12"/>
+  <taggedValue value="1.0.0" tag="//@anyStereotype.0/@property.13"/>
+  <nestedPackage name="Classes" xmiGuid="_18_0_3_16b8041b_1427039393670_85500_6303">
+    <nestedPackage name="Controller" xmiGuid="_18_0_3_16b8041b_1427039393674_416428_6307">
+      <classifier xsi:type="gcore:MClass" name="TeamController" xmiGuid="_18_0_5_16b8041b_1463691794150_460661_6323" stereotype="439149ec-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.0">
+        <taggedValue value="false" tag="//@anyStereotype.1/@property.0"/>
+        <taggedValue value="false" tag="//@anyStereotype.1/@property.1"/>
+        <operation name="showAction" xmiGuid="_18_0_5_16b8041b_1463692443007_306787_6428" visibility="public">
+          <parameter name="team" xmiGuid="_18_0_5_16b8041b_1463692856569_868410_6441" defaultvalue="null" direction="in" type="_18_0_3_16b8041b_1427040480526_106549_7357" operation="_18_0_5_16b8041b_1463692443007_306787_6428">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+        </operation>
+        <operation name="showTeammates" xmiGuid="_18_0_5_16b8041b_1470397821341_202267_7159" visibility="public">
+          <parameter name="team" xmiGuid="_18_0_5_16b8041b_1470397839863_110347_7161" defaultvalue="null" direction="in" type="_18_0_3_16b8041b_1427040480526_106549_7357" operation="_18_0_5_16b8041b_1470397821341_202267_7159">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+        </operation>
+        <operation name="showDirectors" xmiGuid="_18_0_5_16b8041b_1470397839894_345705_7163" visibility="public">
+          <parameter name="team" xmiGuid="_18_0_5_16b8041b_1470397852587_290100_7165" defaultvalue="null" direction="in" type="_18_0_3_16b8041b_1427040480526_106549_7357" operation="_18_0_5_16b8041b_1470397839894_345705_7163">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+        </operation>
+        <property xsi:type="gcore:MAttribute" name="teamRepository" xmiGuid="_18_0_5_16b8041b_1463692367797_83262_6423" stereotype="_17_0_6_8a7027a_1350578161497_621498_1705 _14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="_18_0_5_16b8041b_1454259308335_620950_6276">
+          <taggedValue value="true" tag="//@anyStereotype.2/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.2/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.1"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+        <property xsi:type="gcore:MAttribute" name="teamPositionRepository" xmiGuid="_18_0_5_16b8041b_1464121333469_758935_6461" stereotype="_17_0_6_8a7027a_1350578161497_621498_1705 _14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="_18_0_5_16b8041b_1464121307681_906594_6429">
+          <taggedValue value="true" tag="//@anyStereotype.2/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.2/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.1"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+      </classifier>
+      <classifier xsi:type="gcore:MClass" name="MemberController" xmiGuid="_18_0_5_16b8041b_1463826016503_193664_6062" stereotype="439149ec-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.0">
+        <taggedValue value="false" tag="//@anyStereotype.1/@property.0"/>
+        <taggedValue value="false" tag="//@anyStereotype.1/@property.1"/>
+        <operation name="list" xmiGuid="_18_0_5_16b8041b_1464033927770_142145_6318" visibility="public"/>
+        <property xsi:type="gcore:MAttribute" name="memberRepository" xmiGuid="_18_0_5_16b8041b_1470314698946_446814_6222" stereotype="_17_0_6_8a7027a_1350578161497_621498_1705 _14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="_18_0_5_16b8041b_1470314680574_346978_6200">
+          <taggedValue value="true" tag="//@anyStereotype.2/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.2/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.1"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+        <property xsi:type="gcore:MAttribute" name="naturalMemberRepository" xmiGuid="_18_0_5_16b8041b_1463826094161_726563_6109" stereotype="_17_0_6_8a7027a_1350578161497_621498_1705 _14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="_18_0_5_16b8041b_1454061177681_68636_6100">
+          <taggedValue value="true" tag="//@anyStereotype.2/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.2/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.1"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+      </classifier>
+      <classifier xsi:type="gcore:MClass" name="OrganController" xmiGuid="_18_0_5_16b8041b_1470397876769_452786_7170" stereotype="439149ec-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.0">
+        <taggedValue value="false" tag="//@anyStereotype.1/@property.0"/>
+        <taggedValue value="false" tag="//@anyStereotype.1/@property.1"/>
+        <operation name="showAction" xmiGuid="_18_0_5_16b8041b_1470397876774_609087_7171" visibility="public">
+          <parameter name="organ" xmiGuid="_18_0_5_16b8041b_1470398027286_538559_7267" defaultvalue="null" direction="in" type="_18_0_5_16b8041b_1470323265695_52451_6458" operation="_18_0_5_16b8041b_1470397876774_609087_7171">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+        </operation>
+        <operation name="showMembers" xmiGuid="_18_0_5_16b8041b_1470398217641_774144_7301" visibility="public">
+          <parameter name="organ" xmiGuid="_18_0_5_16b8041b_1470398233076_147092_7303" defaultvalue="null" direction="in" type="_18_0_5_16b8041b_1470323265695_52451_6458" operation="_18_0_5_16b8041b_1470398217641_774144_7301">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+        </operation>
+        <property xsi:type="gcore:MAttribute" name="organRepository" xmiGuid="_18_0_5_16b8041b_1470397876775_774437_7174" stereotype="_17_0_6_8a7027a_1350578161497_621498_1705 _14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="_18_0_5_16b8041b_1470397914021_351116_7215">
+          <taggedValue value="true" tag="//@anyStereotype.2/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.2/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.1"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+        <property xsi:type="gcore:MAttribute" name="organPositionRepository" xmiGuid="_18_0_5_16b8041b_1470397876775_314230_7175" stereotype="_17_0_6_8a7027a_1350578161497_621498_1705 _14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="_18_0_5_16b8041b_1470397945077_506777_7238">
+          <taggedValue value="true" tag="//@anyStereotype.2/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.2/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.1"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+      </classifier>
+    </nestedPackage>
+    <nestedPackage name="Domain" xmiGuid="_18_0_3_16b8041b_1427039393735_451065_6471">
+      <nestedPackage name="Repository" xmiGuid="_18_0_3_16b8041b_1427039393841_715584_6782">
+        <classifier xsi:type="gcore:MClass" name="TeamRepository" xmiGuid="_18_0_5_16b8041b_1454259308335_620950_6276" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.17"/>
+        <classifier xsi:type="gcore:MClass" name="TeamPositionRepository" xmiGuid="_18_0_5_16b8041b_1464121307681_906594_6429" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.17"/>
+        <classifier xsi:type="gcore:MClass" name="MemberRepository" xmiGuid="_18_0_5_16b8041b_1470314680574_346978_6200" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" specialization="_18_0_5_16b8041b_1454061177681_68636_6100 _18_0_5_16b8041b_1463691832864_440378_6355" visibility="public" generalization="//@externalTypes.17"/>
+        <classifier xsi:type="gcore:MClass" name="NaturalMemberRepository" xmiGuid="_18_0_5_16b8041b_1454061177681_68636_6100" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470314680574_346978_6200"/>
+        <classifier xsi:type="gcore:MClass" name="OrganRepository" xmiGuid="_18_0_5_16b8041b_1470397914021_351116_7215" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.17"/>
+        <classifier xsi:type="gcore:MClass" name="OrganPositionRepository" xmiGuid="_18_0_5_16b8041b_1470397945077_506777_7238" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.17"/>
+        <classifier xsi:type="gcore:MClass" name="LegalMemberRepository" xmiGuid="_18_0_5_16b8041b_1463691832864_440378_6355" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470314680574_346978_6200"/>
+        <classifier xsi:type="gcore:MClass" name="ClubRepository" xmiGuid="_18_0_5_16b8041b_1463691886820_594438_6379" stereotype="49c764de-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.17"/>
+      </nestedPackage>
+      <nestedPackage name="Model" xmiGuid="_18_0_3_16b8041b_1427039393925_481555_7016">
+        <classifier xsi:type="gcore:MClass" name="Team" xmiGuid="_18_0_3_16b8041b_1427040480526_106549_7357" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="true" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_3_16b8041b_1427322898753_144846_5562"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="name" xmiGuid="_18_0_3_16b8041b_1427322898753_144846_5562" visibility="protected" type="//@externalTypes.2">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="shortName" xmiGuid="_18_0_3_16b8041b_1427322954120_643750_5572" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_3_16b8041b_1427812942192_793390_7942" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_3_16b8041b_1427812942191_249099_7940" opposite="_18_0_3_16b8041b_1427812942192_108510_7941">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="teammates" xmiGuid="_18_0_3_16b8041b_1445778474252_384766_7015" stereotype="8094534a-1c81-11e3-8460-2388508c54e2" visibility="protected" type="_18_0_3_16b8041b_1445776281997_481470_6925" composition="true" association="_18_0_3_16b8041b_1445778474252_366246_7014" opposite="_18_0_3_16b8041b_1445778474253_486158_7016">
+            <taggedValue value="NONE" tag="//@anyStereotype.7/@property.0"/>
+            <taggedValue value="LAZY" tag="//@anyStereotype.7/@property.1"/>
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="directors" xmiGuid="_18_0_5_16b8041b_1470389011077_876896_7047" stereotype="8094534a-1c81-11e3-8460-2388508c54e2" visibility="protected" type="_18_0_5_16b8041b_1470388653851_326892_6837" composition="true" association="_18_0_5_16b8041b_1470389011077_812057_7046" opposite="_18_0_5_16b8041b_1470389011077_659043_7048">
+            <taggedValue value="NONE" tag="//@anyStereotype.7/@property.0"/>
+            <taggedValue value="LAZY" tag="//@anyStereotype.7/@property.1"/>
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="Organ" xmiGuid="_18_0_5_16b8041b_1470323265695_52451_6458" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="true" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1470323359468_376952_6481"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="name" xmiGuid="_18_0_5_16b8041b_1470323359468_376952_6481" visibility="protected" type="//@externalTypes.2">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="shortName" xmiGuid="_18_0_5_16b8041b_1470323361481_522595_6485" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="members" xmiGuid="_18_0_5_16b8041b_1470323564060_586107_6570" visibility="protected" type="_18_0_5_16b8041b_1470323537598_771862_6540" composition="true" association="_18_0_5_16b8041b_1470323564060_656998_6569" opposite="_18_0_5_16b8041b_1470323564060_76943_6571">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_5_16b8041b_1470323906546_382642_6776" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_5_16b8041b_1470323906546_349947_6774" opposite="_18_0_5_16b8041b_1470323906546_308615_6775">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="Club" xmiGuid="_18_0_3_16b8041b_1427811727296_159662_7564" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" realization="_18_0_5_16b8041b_1463076352261_672199_5803 _18_0_5_16b8041b_1470594461951_750505_6153" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_3_16b8041b_1427812136810_953095_7667"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <operation name="hasContactData" xmiGuid="_18_0_5_16b8041b_1470594642314_420385_6164" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470594642315_946092_6165" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470594642314_420385_6164">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceAddress" xmiGuid="_18_0_5_16b8041b_1463079032327_146283_5904" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463079032328_193825_5905" direction="return" type="_18_0_5_16b8041b_1462443181458_167201_5934" operation="_18_0_5_16b8041b_1463079032327_146283_5904">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="hasCommunicationData" xmiGuid="_18_0_5_16b8041b_1470595007198_922214_6285" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470595007199_764830_6286" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470595007198_922214_6285">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceTelephone" xmiGuid="_18_0_5_16b8041b_1463079036659_177291_5909" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463079036660_346959_5910" direction="return" type="_18_0_5_16b8041b_1462699429685_655128_6225" operation="_18_0_5_16b8041b_1463079036659_177291_5909">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceEMail" xmiGuid="_18_0_5_16b8041b_1463079040916_720552_5914" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463079040916_342161_5915" direction="return" type="_18_0_5_16b8041b_1462699524705_127812_6279" operation="_18_0_5_16b8041b_1463079040916_720552_5914">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceWebsite" xmiGuid="_18_0_5_16b8041b_1463079044701_910688_5919" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463079044702_577340_5920" direction="return" type="_18_0_5_16b8041b_1462699578032_893002_6301" operation="_18_0_5_16b8041b_1463079044701_910688_5919">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <property xsi:type="gcore:MAttribute" name="name" xmiGuid="_18_0_3_16b8041b_1427812136810_953095_7667" visibility="protected" type="//@externalTypes.2">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="shortName" xmiGuid="_18_0_3_16b8041b_1427812161909_226637_7669" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="number" xmiGuid="_18_0_5_16b8041b_1463588038396_940799_6247" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="teams" xmiGuid="_18_0_3_16b8041b_1427812942192_108510_7941" stereotype="8094534a-1c81-11e3-8460-2388508c54e2" visibility="protected" type="_18_0_3_16b8041b_1427040480526_106549_7357" composition="true" association="_18_0_3_16b8041b_1427812942191_249099_7940" opposite="_18_0_3_16b8041b_1427812942192_793390_7942">
+            <taggedValue value="NONE" tag="//@anyStereotype.7/@property.0"/>
+            <taggedValue value="LAZY" tag="//@anyStereotype.7/@property.1"/>
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="addresses" xmiGuid="_18_0_5_16b8041b_1462443316472_737151_5999" visibility="protected" type="_18_0_5_16b8041b_1462443181458_167201_5934" composition="true" association="_18_0_5_16b8041b_1462443316472_184283_5998" opposite="_18_0_5_16b8041b_1462443316472_151585_6000">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="telephones" xmiGuid="_18_0_5_16b8041b_1462700288440_142471_6640" visibility="protected" type="_18_0_5_16b8041b_1462699429685_655128_6225" composition="true" association="_18_0_5_16b8041b_1462700288440_464259_6639" opposite="_18_0_5_16b8041b_1462700288440_396046_6641">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="emails" xmiGuid="_18_0_5_16b8041b_1462700350452_478747_6695" visibility="protected" type="_18_0_5_16b8041b_1462699524705_127812_6279" composition="true" association="_18_0_5_16b8041b_1462700350451_563015_6694" opposite="_18_0_5_16b8041b_1462700350452_642384_6696">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="websites" xmiGuid="_18_0_5_16b8041b_1462700443518_65417_6750" visibility="protected" type="_18_0_5_16b8041b_1462699578032_893002_6301" composition="true" association="_18_0_5_16b8041b_1462700443518_254998_6749" opposite="_18_0_5_16b8041b_1462700443518_191888_6751">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="members" xmiGuid="_18_0_5_16b8041b_1463246416948_302595_6009" stereotype="8094534a-1c81-11e3-8460-2388508c54e2" visibility="protected" type="_18_0_3_16b8041b_1427040492147_818624_7401" composition="true" association="_18_0_5_16b8041b_1463246416948_361578_6008" opposite="_18_0_5_16b8041b_1463246416948_55375_6010">
+            <taggedValue value="NONE" tag="//@anyStereotype.7/@property.0"/>
+            <taggedValue value="LAZY" tag="//@anyStereotype.7/@property.1"/>
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="organs" xmiGuid="_18_0_5_16b8041b_1470323906546_308615_6775" stereotype="8094534a-1c81-11e3-8460-2388508c54e2" visibility="protected" type="_18_0_5_16b8041b_1470323265695_52451_6458" composition="true" association="_18_0_5_16b8041b_1470323906546_349947_6774" opposite="_18_0_5_16b8041b_1470323906546_382642_6776">
+            <taggedValue value="NONE" tag="//@anyStereotype.7/@property.0"/>
+            <taggedValue value="LAZY" tag="//@anyStereotype.7/@property.1"/>
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="TeamMembership" xmiGuid="_18_0_3_16b8041b_1445776281997_481470_6925" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470536486595_769306_6430">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1470323652731_552331_6650"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_3_16b8041b_1445787977703_866708_8324"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1463675073099_130516_6654"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="number" xmiGuid="_18_0_5_16b8041b_1463675073099_130516_6654" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="team" xmiGuid="_18_0_3_16b8041b_1445778474253_486158_7016" visibility="protected" type="_18_0_3_16b8041b_1427040480526_106549_7357" association="_18_0_3_16b8041b_1445778474252_366246_7014" opposite="_18_0_3_16b8041b_1445778474252_384766_7015">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="position" xmiGuid="_18_0_3_16b8041b_1445787977703_866708_8324" visibility="protected" type="_18_0_3_16b8041b_1445776367732_802360_6947" association="_18_0_3_16b8041b_1445787977703_218082_8323">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="DirectorMembership" xmiGuid="_18_0_5_16b8041b_1470388653851_326892_6837" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470536486595_769306_6430">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1463134001103_568270_7023"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470388891151_143798_6975"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAssociationRole" name="position" xmiGuid="_18_0_5_16b8041b_1470388891151_143798_6975" visibility="protected" type="_18_0_5_16b8041b_1470388668632_172768_6859" association="_18_0_5_16b8041b_1470388891151_225551_6974">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="team" xmiGuid="_18_0_5_16b8041b_1470389011077_659043_7048" visibility="protected" type="_18_0_3_16b8041b_1427040480526_106549_7357" association="_18_0_5_16b8041b_1470389011077_812057_7046" opposite="_18_0_5_16b8041b_1470389011077_876896_7047">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="Member" xmiGuid="_18_0_3_16b8041b_1427040492147_818624_7401" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" specialization="_18_0_5_16b8041b_1463133656088_299034_6707 _18_0_5_16b8041b_1463133671005_50507_6712" visibility="public" realization="_18_0_5_16b8041b_1463076352261_672199_5803 _18_0_5_16b8041b_1470594461951_750505_6153" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1463133759464_105593_6977"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_3_16b8041b_1427322925394_877975_5566"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_3_16b8041b_1427322912188_441380_5564"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1463133796633_467553_6981"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.8" valueReference="_18_0_5_16b8041b_1463133759464_105593_6977"/>
+          <taggedValue tag="//@anyStereotype.6/@property.8" valueReference="_18_0_3_16b8041b_1427322925394_877975_5566"/>
+          <taggedValue tag="//@anyStereotype.6/@property.8" valueReference="_18_0_3_16b8041b_1427322912188_441380_5564"/>
+          <taggedValue tag="//@anyStereotype.6/@property.8" valueReference="_18_0_5_16b8041b_1463133796633_467553_6981"/>
+          <operation name="hasContactData" xmiGuid="_18_0_5_16b8041b_1470594321159_656200_6144" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470594359891_97911_6147" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470594321159_656200_6144">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceAddress" xmiGuid="_18_0_5_16b8041b_1463134254819_702291_7260" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463134254819_113332_7261" direction="return" type="_18_0_5_16b8041b_1462443181458_167201_5934" operation="_18_0_5_16b8041b_1463134254819_702291_7260">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="hasCommunicationData" xmiGuid="_18_0_5_16b8041b_1470599112495_797117_6309" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470599112495_970169_6310" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470599112495_797117_6309">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceTelephone" xmiGuid="_18_0_5_16b8041b_1463134257994_490925_7265" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463134257995_246955_7266" direction="return" type="_18_0_5_16b8041b_1462699429685_655128_6225" operation="_18_0_5_16b8041b_1463134257994_490925_7265">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceEMail" xmiGuid="_18_0_5_16b8041b_1463134260586_275117_7270" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463134260586_46695_7271" direction="return" type="_18_0_5_16b8041b_1462699524705_127812_6279" operation="_18_0_5_16b8041b_1463134260586_275117_7270">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceWebsite" xmiGuid="_18_0_5_16b8041b_1463134263258_391534_7275" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463134263258_666975_7276" direction="return" type="_18_0_5_16b8041b_1462699578032_893002_6301" operation="_18_0_5_16b8041b_1463134263258_391534_7275">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <property xsi:type="gcore:MAttribute" name="number" xmiGuid="_18_0_5_16b8041b_1463133759464_105593_6977" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="dateOfJoining" xmiGuid="_18_0_5_16b8041b_1463643948650_981940_6297" visibility="protected" type="//@externalTypes.5">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="dateOfLeaving" xmiGuid="_18_0_5_16b8041b_1463647769093_84698_7268" visibility="protected" type="//@externalTypes.5">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="picture" xmiGuid="_18_0_5_16b8041b_1454056737260_374451_6267" visibility="protected" type="//@externalTypes.6">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="frontendUser" xmiGuid="_18_0_3_16b8041b_1428077896230_533563_5642" stereotype="4d87f2f0-1c85-11e3-8460-2388508c54e2" visibility="protected" type="//@externalTypes.7" association="_18_0_3_16b8041b_1428077896230_323991_5641">
+            <taggedValue value="false" tag="//@anyStereotype.8/@property.0"/>
+            <taggedValue value="false" tag="//@anyStereotype.8/@property.1"/>
+            <taggedValue value="false" tag="//@anyStereotype.8/@property.2"/>
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="addresses" xmiGuid="_18_0_5_16b8041b_1463134001102_835571_7022" visibility="protected" type="_18_0_5_16b8041b_1462443181458_167201_5934" composition="true" association="_18_0_5_16b8041b_1463134001102_179142_7021" opposite="_18_0_5_16b8041b_1463134001103_568270_7023">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="telephones" xmiGuid="_18_0_5_16b8041b_1463134004829_759026_7055" visibility="protected" type="_18_0_5_16b8041b_1462699429685_655128_6225" composition="true" association="_18_0_5_16b8041b_1463134004829_347406_7054" opposite="_18_0_5_16b8041b_1463134004830_371776_7056">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="emails" xmiGuid="_18_0_5_16b8041b_1463134008377_17268_7088" visibility="protected" type="_18_0_5_16b8041b_1462699524705_127812_6279" composition="true" association="_18_0_5_16b8041b_1463134008377_794530_7087" opposite="_18_0_5_16b8041b_1463134008377_459252_7089">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="websites" xmiGuid="_18_0_5_16b8041b_1463134014305_836943_7121" visibility="protected" type="_18_0_5_16b8041b_1462699578032_893002_6301" composition="true" association="_18_0_5_16b8041b_1463134014304_586235_7120" opposite="_18_0_5_16b8041b_1463134014305_740133_7122">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_5_16b8041b_1463246416948_55375_6010" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_5_16b8041b_1463246416948_361578_6008" opposite="_18_0_5_16b8041b_1463246416948_302595_6009">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MInterface" name="ContactableInterface" xmiGuid="_18_0_5_16b8041b_1463076352261_672199_5803" visibility="public">
+          <operation name="hasContactData" xmiGuid="_18_0_5_16b8041b_1470594909166_172183_6276" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470594909166_896428_6277" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470594909166_172183_6276">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getAddresses" xmiGuid="_18_0_5_16b8041b_1463076408691_779167_5827" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076415327_631369_5830" direction="return" type="_18_0_5_16b8041b_1462443181458_167201_5934" operation="_18_0_5_16b8041b_1463076408691_779167_5827">
+              <multiplicity unique="true" upperBound="-1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceAddress" xmiGuid="_18_0_5_16b8041b_1463076433544_161332_5833" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076449085_933309_5836" direction="return" type="_18_0_5_16b8041b_1462443181458_167201_5934" operation="_18_0_5_16b8041b_1463076433544_161332_5833">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+        </classifier>
+        <classifier xsi:type="gcore:MInterface" name="CommunicableInterface" xmiGuid="_18_0_5_16b8041b_1470594461951_750505_6153" visibility="public">
+          <operation name="hasCommunicationData" xmiGuid="_18_0_5_16b8041b_1470594406983_399767_6148" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470594952062_844198_6284" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470594406983_399767_6148">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getTelephones" xmiGuid="_18_0_5_16b8041b_1463076459887_701853_5837" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076473926_183733_5840" direction="return" type="_18_0_5_16b8041b_1462699429685_655128_6225" operation="_18_0_5_16b8041b_1463076459887_701853_5837">
+              <multiplicity unique="true" upperBound="-1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceTelephone" xmiGuid="_18_0_5_16b8041b_1463076476767_355605_5841" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076491583_718136_5844" direction="return" type="_18_0_5_16b8041b_1462699429685_655128_6225" operation="_18_0_5_16b8041b_1463076476767_355605_5841">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getEMails" xmiGuid="_18_0_5_16b8041b_1463076491595_204205_5845" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076507509_376021_5848" direction="return" type="_18_0_5_16b8041b_1462699524705_127812_6279" operation="_18_0_5_16b8041b_1463076491595_204205_5845">
+              <multiplicity unique="true" upperBound="-1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceEMail" xmiGuid="_18_0_5_16b8041b_1463076507523_175892_5849" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076518909_668182_5852" direction="return" type="_18_0_5_16b8041b_1462699524705_127812_6279" operation="_18_0_5_16b8041b_1463076507523_175892_5849">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getWebsites" xmiGuid="_18_0_5_16b8041b_1463076518926_60032_5853" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076526820_573042_5856" direction="return" type="_18_0_5_16b8041b_1462699578032_893002_6301" operation="_18_0_5_16b8041b_1463076518926_60032_5853">
+              <multiplicity unique="true" upperBound="-1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceWebsite" xmiGuid="_18_0_5_16b8041b_1463076526833_826076_5857" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463076549430_286199_5860" direction="return" type="_18_0_5_16b8041b_1462699578032_893002_6301" operation="_18_0_5_16b8041b_1463076526833_826076_5857">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="Address" xmiGuid="_18_0_5_16b8041b_1462443181458_167201_5934" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_3_16b8041b_1452867904195_684930_6217"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_3_16b8041b_1452867893316_900575_6205"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_3_16b8041b_1452867897433_817259_6209"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="isCorrespondence" xmiGuid="_18_0_5_16b8041b_1462699604805_349825_6366" visibility="protected" type="//@externalTypes.8">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="street" xmiGuid="_18_0_3_16b8041b_1452867893316_900575_6205" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="streetNumber" xmiGuid="_18_0_3_16b8041b_1452867897433_817259_6209" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="roomNumber" xmiGuid="_18_0_3_16b8041b_1452872612278_741826_6398" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="postalCode" xmiGuid="_18_0_3_16b8041b_1452867900122_993219_6213" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="locality" xmiGuid="_18_0_3_16b8041b_1452867904195_684930_6217" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="subLocality" xmiGuid="_18_0_3_16b8041b_1453226033226_52998_6134" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="country" xmiGuid="_18_0_5_16b8041b_1463643685304_925656_6279" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="type" xmiGuid="_18_0_5_16b8041b_1462443386016_566123_6054" visibility="protected" type="_18_0_5_16b8041b_1462443219942_310437_5962" association="_18_0_5_16b8041b_1462443386016_219895_6053">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_5_16b8041b_1462443316472_151585_6000" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_5_16b8041b_1462443316472_184283_5998" opposite="_18_0_5_16b8041b_1462443316472_737151_5999">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="member" xmiGuid="_18_0_5_16b8041b_1463134001103_568270_7023" visibility="protected" type="_18_0_3_16b8041b_1427040492147_818624_7401" association="_18_0_5_16b8041b_1463134001102_179142_7021" opposite="_18_0_5_16b8041b_1463134001102_835571_7022">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="contactPerson" xmiGuid="_18_0_5_16b8041b_1463645689176_501801_7090" visibility="protected" type="_18_0_5_16b8041b_1463645486769_885489_6907" association="_18_0_5_16b8041b_1463645689176_440076_7088" opposite="_18_0_5_16b8041b_1463645689176_846163_7089">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="Telephone" xmiGuid="_18_0_5_16b8041b_1462699429685_655128_6225" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462699954877_982867_6422"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="isCorrespondence" xmiGuid="_18_0_5_16b8041b_1462699888049_898129_6389" visibility="protected" type="//@externalTypes.8">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="telephone" xmiGuid="_18_0_5_16b8041b_1462699954877_982867_6422" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="type" xmiGuid="_18_0_5_16b8041b_1462700087361_904518_6498" visibility="protected" type="_18_0_5_16b8041b_1462699512562_969635_6257" association="_18_0_5_16b8041b_1462700087361_880971_6497">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_5_16b8041b_1462700288440_396046_6641" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_5_16b8041b_1462700288440_464259_6639" opposite="_18_0_5_16b8041b_1462700288440_142471_6640">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="member" xmiGuid="_18_0_5_16b8041b_1463134004830_371776_7056" visibility="protected" type="_18_0_3_16b8041b_1427040492147_818624_7401" association="_18_0_5_16b8041b_1463134004829_347406_7054" opposite="_18_0_5_16b8041b_1463134004829_759026_7055">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="contactPerson" xmiGuid="_18_0_5_16b8041b_1463645680498_32413_7057" visibility="protected" type="_18_0_5_16b8041b_1463645486769_885489_6907" association="_18_0_5_16b8041b_1463645680498_298977_7055" opposite="_18_0_5_16b8041b_1463645680498_563118_7056">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="EMail" xmiGuid="_18_0_5_16b8041b_1462699524705_127812_6279" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462699984724_120633_6474"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="isCorrespondence" xmiGuid="_18_0_5_16b8041b_1462699893501_91839_6393" visibility="protected" type="//@externalTypes.8">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="email" xmiGuid="_18_0_5_16b8041b_1462699984724_120633_6474" visibility="protected" type="//@externalTypes.11">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="type" xmiGuid="_18_0_5_16b8041b_1462700091716_504346_6531" visibility="protected" type="_18_0_5_16b8041b_1462699585059_527242_6323" association="_18_0_5_16b8041b_1462700091716_872044_6530">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_5_16b8041b_1462700350452_642384_6696" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_5_16b8041b_1462700350451_563015_6694" opposite="_18_0_5_16b8041b_1462700350452_478747_6695">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="member" xmiGuid="_18_0_5_16b8041b_1463134008377_459252_7089" visibility="protected" type="_18_0_3_16b8041b_1427040492147_818624_7401" association="_18_0_5_16b8041b_1463134008377_794530_7087" opposite="_18_0_5_16b8041b_1463134008377_17268_7088">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="contactPerson" xmiGuid="_18_0_5_16b8041b_1463645677203_827949_7024" visibility="protected" type="_18_0_5_16b8041b_1463645486769_885489_6907" association="_18_0_5_16b8041b_1463645677203_550145_7022" opposite="_18_0_5_16b8041b_1463645677203_179465_7023">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="Website" xmiGuid="_18_0_5_16b8041b_1462699578032_893002_6301" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462699971227_562789_6448"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="isCorrespondence" xmiGuid="_18_0_5_16b8041b_1462699899417_234358_6397" visibility="protected" type="//@externalTypes.8">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="website" xmiGuid="_18_0_5_16b8041b_1462699971227_562789_6448" visibility="protected" type="//@externalTypes.12">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="type" xmiGuid="_18_0_5_16b8041b_1462700097290_97800_6564" visibility="protected" type="_18_0_5_16b8041b_1462699590922_247802_6345" association="_18_0_5_16b8041b_1462700097290_336012_6563">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="club" xmiGuid="_18_0_5_16b8041b_1462700443518_191888_6751" visibility="protected" type="_18_0_3_16b8041b_1427811727296_159662_7564" association="_18_0_5_16b8041b_1462700443518_254998_6749" opposite="_18_0_5_16b8041b_1462700443518_65417_6750">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="member" xmiGuid="_18_0_5_16b8041b_1463134014305_740133_7122" visibility="protected" type="_18_0_3_16b8041b_1427040492147_818624_7401" association="_18_0_5_16b8041b_1463134014304_586235_7120" opposite="_18_0_5_16b8041b_1463134014305_836943_7121">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="contactPerson" xmiGuid="_18_0_5_16b8041b_1463645670206_317519_6991" visibility="protected" type="_18_0_5_16b8041b_1463645486769_885489_6907" association="_18_0_5_16b8041b_1463645670205_558253_6989" opposite="_18_0_5_16b8041b_1463645670205_167197_6990">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="NaturalMember" xmiGuid="_18_0_5_16b8041b_1463133656088_299034_6707" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 8095b2f2-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_3_16b8041b_1427040492147_818624_7401">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue value="SINGLE_TABLE" tag="//@anyStereotype.14/@property.0"/>
+          <taggedValue value="type" tag="//@anyStereotype.14/@property.1"/>
+          <property xsi:type="gcore:MAttribute" name="lastName" xmiGuid="_18_0_3_16b8041b_1427322925394_877975_5566" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="firstName" xmiGuid="_18_0_3_16b8041b_1427322912188_441380_5564" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="gender" xmiGuid="_18_0_3_16b8041b_1445783193387_369009_7960" visibility="protected" type="_18_0_5_16b8041b_1470471194524_497616_6316">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="academicDegree" xmiGuid="_18_0_3_16b8041b_1427817874449_485160_8521" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="formOfAddress" xmiGuid="_18_0_3_16b8041b_1453225553728_751994_6100" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="birthday" xmiGuid="_18_0_5_16b8041b_1462393212647_51443_6743" visibility="protected" type="//@externalTypes.5">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="nameOfCompany" xmiGuid="_18_0_5_16b8041b_1463646475664_574659_7260" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="positionInCompany" xmiGuid="_18_0_5_16b8041b_1463646569840_227936_7264" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="formOfEmployment" xmiGuid="_18_0_5_16b8041b_1463646601169_88182_7266" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="LegalMember" xmiGuid="_18_0_5_16b8041b_1463133671005_50507_6712" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 8095b2f2-1c81-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_3_16b8041b_1427040492147_818624_7401">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue value="SINGLE_TABLE" tag="//@anyStereotype.14/@property.0"/>
+          <taggedValue value="type" tag="//@anyStereotype.14/@property.1"/>
+          <property xsi:type="gcore:MAttribute" name="name" xmiGuid="_18_0_5_16b8041b_1463133796633_467553_6981" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="contactPersons" xmiGuid="_18_0_5_16b8041b_1463645486780_829045_6909" visibility="protected" type="_18_0_5_16b8041b_1463645486769_885489_6907" composition="true" association="_18_0_5_16b8041b_1463645486780_509051_6908" opposite="_18_0_5_16b8041b_1463645486780_241512_6910">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="AbstractMembership" xmiGuid="_18_0_5_16b8041b_1470536486595_769306_6430" stereotype="49c3bc2d-1c81-11e3-8460-2388508c54e2" specialization="_18_0_3_16b8041b_1445776281997_481470_6925 _18_0_5_16b8041b_1470323537598_771862_6540 _18_0_5_16b8041b_1470388653851_326892_6837" visibility="public" abstract="true" realization="_18_0_5_16b8041b_1471968497470_286584_6384" generalization="//@externalTypes.1">
+          <operation name="getGenderedPosition" xmiGuid="_18_0_5_16b8041b_1470418713810_921800_6283" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470418733643_356658_6286" direction="return" type="//@externalTypes.14" operation="_18_0_5_16b8041b_1470418713810_921800_6283">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getPosition" xmiGuid="_18_0_5_16b8041b_1470538805986_972807_6461" visibility="public" abstract="true">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470538819771_327443_6464" direction="return" type="_18_0_5_16b8041b_1470534983035_306503_6355" operation="_18_0_5_16b8041b_1470538805986_972807_6461">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <property xsi:type="gcore:MAssociationRole" name="member" xmiGuid="_18_0_5_16b8041b_1470323652731_552331_6650" visibility="protected" type="_18_0_3_16b8041b_1427040492147_818624_7401" association="_18_0_5_16b8041b_1470323652731_254692_6649">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="sorting" xmiGuid="_18_0_5_16b8041b_1471968467988_150427_6379" visibility="protected" type="//@externalTypes.15">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="description" xmiGuid="_18_0_5_16b8041b_1471432034356_905817_6290" visibility="protected" type="//@externalTypes.16">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="TeamPosition" xmiGuid="_18_0_3_16b8041b_1445776367732_802360_6947" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470534983035_306503_6355">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="true" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1470323452483_824955_6516"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323454204_972642_6520"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323455914_913116_6524"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="AbstractPosition" xmiGuid="_18_0_5_16b8041b_1470534983035_306503_6355" stereotype="49c3bc2d-1c81-11e3-8460-2388508c54e2" specialization="_18_0_3_16b8041b_1445776367732_802360_6947 _18_0_5_16b8041b_1470323416806_341235_6494 _18_0_5_16b8041b_1470388668632_172768_6859" visibility="public" abstract="true" generalization="//@externalTypes.1">
+          <operation name="getGenderedLabel" xmiGuid="_18_0_5_16b8041b_1470501704492_418672_6342" visibility="public">
+            <parameter name="gender" xmiGuid="_18_0_5_16b8041b_1470501725159_158887_6345" direction="in" type="_18_0_5_16b8041b_1470471194524_497616_6316" operation="_18_0_5_16b8041b_1470501704492_418672_6342">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </parameter>
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470501704493_101294_6343" direction="return" type="//@externalTypes.14" operation="_18_0_5_16b8041b_1470501704492_418672_6342">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <property xsi:type="gcore:MAttribute" name="label" xmiGuid="_18_0_5_16b8041b_1470323452483_824955_6516" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="maleLabel" xmiGuid="_18_0_5_16b8041b_1470323454204_972642_6520" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="femaleLabel" xmiGuid="_18_0_5_16b8041b_1470323455914_913116_6524" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="AddressType" xmiGuid="_18_0_5_16b8041b_1462443219942_310437_5962" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c4f4b3-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.10">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462443231889_631713_5983"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="label" xmiGuid="_18_0_5_16b8041b_1462700255933_391689_6626" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="ContactPerson" xmiGuid="_18_0_5_16b8041b_1463645486769_885489_6907" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" realization="_18_0_5_16b8041b_1463076352261_672199_5803 _18_0_5_16b8041b_1470594461951_750505_6153" generalization="//@externalTypes.1">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <operation name="hasContactData" xmiGuid="_18_0_5_16b8041b_1470595061253_654191_6291" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470595061253_693247_6292" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470595061253_654191_6291">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceAddress" xmiGuid="_18_0_5_16b8041b_1463646285439_893600_7210" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463646285440_355986_7211" direction="return" type="_18_0_5_16b8041b_1462443181458_167201_5934" operation="_18_0_5_16b8041b_1463646285439_893600_7210">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="hasCommunicationData" xmiGuid="_18_0_5_16b8041b_1470595050928_603667_6288" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1470595050928_976789_6289" direction="return" type="//@externalTypes.8" operation="_18_0_5_16b8041b_1470595050928_603667_6288">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceTelephone" xmiGuid="_18_0_5_16b8041b_1463646287914_757519_7215" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463646287914_417737_7216" direction="return" type="_18_0_5_16b8041b_1462699429685_655128_6225" operation="_18_0_5_16b8041b_1463646287914_757519_7215">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceEMail" xmiGuid="_18_0_5_16b8041b_1463646290243_188189_7220" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463646290243_586582_7221" direction="return" type="_18_0_5_16b8041b_1462699524705_127812_6279" operation="_18_0_5_16b8041b_1463646290243_188189_7220">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="getCorrespondenceWebsite" xmiGuid="_18_0_5_16b8041b_1463646291953_874188_7225" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1463646291953_384243_7226" direction="return" type="_18_0_5_16b8041b_1462699578032_893002_6301" operation="_18_0_5_16b8041b_1463646291953_874188_7225">
+              <multiplicity unique="true" upperBound="1"/>
+            </return>
+          </operation>
+          <property xsi:type="gcore:MAttribute" name="gender" xmiGuid="_18_0_5_16b8041b_1463645548244_15986_6936" visibility="protected" type="_18_0_5_16b8041b_1470471194524_497616_6316">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="academicDegree" xmiGuid="_18_0_5_16b8041b_1463645563580_134517_6940" visibility="protected" type="//@externalTypes.4">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="formOfAddress" xmiGuid="_18_0_5_16b8041b_1463645566336_375652_6944" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="firstName" xmiGuid="_18_0_5_16b8041b_1463645568654_363102_6948" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="lastName" xmiGuid="_18_0_5_16b8041b_1463645570937_679214_6952" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="birthday" xmiGuid="_18_0_5_16b8041b_1463645578351_675970_6956" visibility="protected" type="//@externalTypes.5">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="picture" xmiGuid="_18_0_5_16b8041b_1463646211808_248416_7170" visibility="protected" type="//@externalTypes.6">
+            <multiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="positionInCompany" xmiGuid="_18_0_5_16b8041b_1463648436449_328426_7276" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAttribute" name="formOfEmployment" xmiGuid="_18_0_5_16b8041b_1463648439193_11896_7278" visibility="protected" type="//@externalTypes.3">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="legalMember" xmiGuid="_18_0_5_16b8041b_1463645486780_241512_6910" visibility="protected" type="_18_0_5_16b8041b_1463133671005_50507_6712" association="_18_0_5_16b8041b_1463645486780_509051_6908" opposite="_18_0_5_16b8041b_1463645486780_829045_6909">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="websites" xmiGuid="_18_0_5_16b8041b_1463645670205_167197_6990" visibility="protected" type="_18_0_5_16b8041b_1462699578032_893002_6301" composition="true" association="_18_0_5_16b8041b_1463645670205_558253_6989" opposite="_18_0_5_16b8041b_1463645670206_317519_6991">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="emails" xmiGuid="_18_0_5_16b8041b_1463645677203_179465_7023" visibility="protected" type="_18_0_5_16b8041b_1462699524705_127812_6279" composition="true" association="_18_0_5_16b8041b_1463645677203_550145_7022" opposite="_18_0_5_16b8041b_1463645677203_827949_7024">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="telephones" xmiGuid="_18_0_5_16b8041b_1463645680498_563118_7056" visibility="protected" type="_18_0_5_16b8041b_1462699429685_655128_6225" composition="true" association="_18_0_5_16b8041b_1463645680498_298977_7055" opposite="_18_0_5_16b8041b_1463645680498_32413_7057">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="addresses" xmiGuid="_18_0_5_16b8041b_1463645689176_846163_7089" visibility="protected" type="_18_0_5_16b8041b_1462443181458_167201_5934" composition="true" association="_18_0_5_16b8041b_1463645689176_440076_7088" opposite="_18_0_5_16b8041b_1463645689176_501801_7090">
+            <multiplicity unique="true" upperBound="-1"/>
+            <oppositeMultiplicity unique="true" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="TelephoneType" xmiGuid="_18_0_5_16b8041b_1462699512562_969635_6257" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c4f4b3-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.10">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462443231889_631713_5983"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="label" xmiGuid="_18_0_5_16b8041b_1462443231889_631713_5983" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="EMailType" xmiGuid="_18_0_5_16b8041b_1462699585059_527242_6323" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c4f4b3-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.10">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462699738821_455966_6381"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="label" xmiGuid="_18_0_5_16b8041b_1462699738821_455966_6381" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="WebsiteType" xmiGuid="_18_0_5_16b8041b_1462699590922_247802_6345" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c4f4b3-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.10">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1462699675159_792672_6372"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAttribute" name="label" xmiGuid="_18_0_5_16b8041b_1462699675159_792672_6372" visibility="protected" type="//@externalTypes.9">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MEnumeration" name="Gender" xmiGuid="_18_0_5_16b8041b_1470471194524_497616_6316" visibility="public" generalization="//@externalTypes.13">
+          <literal name="NONE" xmiGuid="_18_0_5_16b8041b_1470471837368_962686_6339"/>
+          <literal name="MALE" xmiGuid="_18_0_5_16b8041b_1470471202341_580919_6335"/>
+          <literal name="FEMALE" xmiGuid="_18_0_5_16b8041b_1470471211787_989645_6337"/>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="OrganMembership" xmiGuid="_18_0_5_16b8041b_1470323537598_771862_6540" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470536486595_769306_6430">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1470323652731_552331_6650"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323683389_662013_6699"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+          <property xsi:type="gcore:MAssociationRole" name="organ" xmiGuid="_18_0_5_16b8041b_1470323564060_76943_6571" visibility="protected" type="_18_0_5_16b8041b_1470323265695_52451_6458" association="_18_0_5_16b8041b_1470323564060_656998_6569" opposite="_18_0_5_16b8041b_1470323564060_586107_6570">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+          <property xsi:type="gcore:MAssociationRole" name="position" xmiGuid="_18_0_5_16b8041b_1470323683389_662013_6699" visibility="protected" type="_18_0_5_16b8041b_1470323416806_341235_6494" association="_18_0_5_16b8041b_1470323683389_397711_6698">
+            <multiplicity unique="true" upperBound="1"/>
+            <oppositeMultiplicity unique="true" upperBound="-1"/>
+          </property>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="OrganPosition" xmiGuid="_18_0_5_16b8041b_1470323416806_341235_6494" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470534983035_306503_6355">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="true" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1470323452483_824955_6516"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323454204_972642_6520"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323455914_913116_6524"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+        </classifier>
+        <classifier xsi:type="gcore:MClass" name="DirectorPosition" xmiGuid="_18_0_5_16b8041b_1470388668632_172768_6859" stereotype="439ac08b-1c85-11e3-8460-2388508c54e2 49c3bc2d-1c81-11e3-8460-2388508c54e2 49c7da16-1c81-11e3-8460-2388508c54e2 4d8f93b3-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="_18_0_5_16b8041b_1470534983035_306503_6355">
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.1"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.3"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.4"/>
+          <taggedValue value="true" tag="//@anyStereotype.3/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.6"/>
+          <taggedValue value="false" tag="//@anyStereotype.3/@property.7"/>
+          <taggedValue tag="//@anyStereotype.6/@property.0" valueReference="_18_0_5_16b8041b_1470323452483_824955_6516"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323454204_972642_6520"/>
+          <taggedValue tag="//@anyStereotype.6/@property.1" valueReference="_18_0_5_16b8041b_1470323455914_913116_6524"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.2"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.3"/>
+          <taggedValue value="true" tag="//@anyStereotype.6/@property.4"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.5"/>
+          <taggedValue value="false" tag="//@anyStereotype.6/@property.6"/>
+          <taggedValue value="EXISTS_ONLY_IN_PAGE_TREE" tag="//@anyStereotype.6/@property.7"/>
+        </classifier>
+        <classifier xsi:type="gcore:MInterface" name="SortableInterface" xmiGuid="_18_0_5_16b8041b_1471968497470_286584_6384" visibility="public">
+          <operation name="getSorting" xmiGuid="_18_0_5_16b8041b_1471968503539_546816_6387" visibility="public">
+            <return name="" xmiGuid="_18_0_5_16b8041b_1471968515805_352531_6390" direction="return" type="//@externalTypes.15" operation="_18_0_5_16b8041b_1471968503539_546816_6387">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </return>
+          </operation>
+          <operation name="setSorting" xmiGuid="_18_0_5_16b8041b_1471968529838_309331_6392" visibility="public">
+            <parameter name="sorting" xmiGuid="_18_0_5_16b8041b_1471968540382_341357_6394" direction="in" type="//@externalTypes.15" operation="_18_0_5_16b8041b_1471968529838_309331_6392">
+              <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+            </parameter>
+          </operation>
+        </classifier>
+        <association name="" xmiGuid="_18_0_3_16b8041b_1427812942191_249099_7940" end="_18_0_3_16b8041b_1427812942192_108510_7941 _18_0_3_16b8041b_1427812942192_793390_7942"/>
+        <association name="" xmiGuid="_18_0_3_16b8041b_1428077896230_323991_5641" end="_18_0_3_16b8041b_1428077896230_533563_5642"/>
+        <association name="" xmiGuid="_18_0_3_16b8041b_1445778474252_366246_7014" end="_18_0_3_16b8041b_1445778474252_384766_7015 _18_0_3_16b8041b_1445778474253_486158_7016"/>
+        <association name="" xmiGuid="_18_0_3_16b8041b_1445787977703_218082_8323" end="_18_0_3_16b8041b_1445787977703_866708_8324"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462443316472_184283_5998" end="_18_0_5_16b8041b_1462443316472_737151_5999 _18_0_5_16b8041b_1462443316472_151585_6000"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462443386016_219895_6053" end="_18_0_5_16b8041b_1462443386016_566123_6054"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462700087361_880971_6497" end="_18_0_5_16b8041b_1462700087361_904518_6498"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462700091716_872044_6530" end="_18_0_5_16b8041b_1462700091716_504346_6531"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462700097290_336012_6563" end="_18_0_5_16b8041b_1462700097290_97800_6564"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462700288440_464259_6639" end="_18_0_5_16b8041b_1462700288440_142471_6640 _18_0_5_16b8041b_1462700288440_396046_6641"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462700350451_563015_6694" end="_18_0_5_16b8041b_1462700350452_478747_6695 _18_0_5_16b8041b_1462700350452_642384_6696"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1462700443518_254998_6749" end="_18_0_5_16b8041b_1462700443518_65417_6750 _18_0_5_16b8041b_1462700443518_191888_6751"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463134001102_179142_7021" end="_18_0_5_16b8041b_1463134001102_835571_7022 _18_0_5_16b8041b_1463134001103_568270_7023"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463134004829_347406_7054" end="_18_0_5_16b8041b_1463134004829_759026_7055 _18_0_5_16b8041b_1463134004830_371776_7056"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463134008377_794530_7087" end="_18_0_5_16b8041b_1463134008377_17268_7088 _18_0_5_16b8041b_1463134008377_459252_7089"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463134014304_586235_7120" end="_18_0_5_16b8041b_1463134014305_836943_7121 _18_0_5_16b8041b_1463134014305_740133_7122"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463246416948_361578_6008" end="_18_0_5_16b8041b_1463246416948_302595_6009 _18_0_5_16b8041b_1463246416948_55375_6010"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463645486780_509051_6908" end="_18_0_5_16b8041b_1463645486780_829045_6909 _18_0_5_16b8041b_1463645486780_241512_6910"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463645670205_558253_6989" end="_18_0_5_16b8041b_1463645670205_167197_6990 _18_0_5_16b8041b_1463645670206_317519_6991"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463645677203_550145_7022" end="_18_0_5_16b8041b_1463645677203_179465_7023 _18_0_5_16b8041b_1463645677203_827949_7024"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463645680498_298977_7055" end="_18_0_5_16b8041b_1463645680498_563118_7056 _18_0_5_16b8041b_1463645680498_32413_7057"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1463645689176_440076_7088" end="_18_0_5_16b8041b_1463645689176_846163_7089 _18_0_5_16b8041b_1463645689176_501801_7090"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1470323564060_656998_6569" end="_18_0_5_16b8041b_1470323564060_586107_6570 _18_0_5_16b8041b_1470323564060_76943_6571"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1470323652731_254692_6649" end="_18_0_5_16b8041b_1470323652731_552331_6650"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1470323683389_397711_6698" end="_18_0_5_16b8041b_1470323683389_662013_6699"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1470323906546_349947_6774" end="_18_0_5_16b8041b_1470323906546_308615_6775 _18_0_5_16b8041b_1470323906546_382642_6776"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1470388891151_225551_6974" end="_18_0_5_16b8041b_1470388891151_143798_6975"/>
+        <association name="" xmiGuid="_18_0_5_16b8041b_1470389011077_812057_7046" end="_18_0_5_16b8041b_1470389011077_876896_7047 _18_0_5_16b8041b_1470389011077_659043_7048"/>
+      </nestedPackage>
+      <nestedPackage name="Validator" xmiGuid="_18_0_3_16b8041b_1427039393688_786541_6333"/>
+    </nestedPackage>
+    <nestedPackage name="Service" xmiGuid="_18_0_3_16b8041b_1427039393978_140692_7210"/>
+    <nestedPackage name="ViewHelpers" xmiGuid="_18_0_3_16b8041b_1427039393849_52176_6811">
+      <classifier xsi:type="gcore:MClass" name="DecorateViewHelper" xmiGuid="_18_0_3_16b8041b_1427039393903_69061_6949" stereotype="239b387b-1c85-11e3-8460-2388508c54e2" visibility="public">
+        <operation name="render" xmiGuid="_18_0_3_16b8041b_1427039393694_316071_6334" visibility="public">
+          <parameter name="decorator" xmiGuid="_18_0_3_16b8041b_1427039393897_191559_6932" defaultvalue="NULL" direction="in" type="//@externalTypes.14" operation="_18_0_3_16b8041b_1427039393694_316071_6334">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393824_975522_6734" annotation="Reference to a decorator."/>
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+          <parameter name="section" xmiGuid="_18_0_3_16b8041b_1427039393735_920482_6453" direction="in" type="//@externalTypes.14" operation="_18_0_3_16b8041b_1427039393694_316071_6334">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393787_732216_6609" annotation="Name of section to render."/>
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+          <parameter name="arguments" xmiGuid="_18_0_3_16b8041b_1427039393778_919001_6590" defaultvalue="array()" direction="in" type="//@externalTypes.18" operation="_18_0_3_16b8041b_1427039393694_316071_6334">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393764_749242_6534" annotation="Arguments to pass to the decorator."/>
+            <multiplicity unique="true" upperBound="-1"/>
+          </parameter>
+          <parameter name="optional" xmiGuid="_18_0_3_16b8041b_1427039393699_428339_6344" defaultvalue="false" direction="in" type="//@externalTypes.8" operation="_18_0_3_16b8041b_1427039393694_316071_6334">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393778_560800_6599" annotation="Set to TRUE, to ignore unknown sections, so the definition of a section inside a template can be optional for a layout."/>
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+        </operation>
+      </classifier>
+      <classifier xsi:type="gcore:MClass" name="GravatarViewHelper" xmiGuid="_18_0_5_16b8041b_1454237040598_21847_6026" stereotype="239b387b-1c85-11e3-8460-2388508c54e2" visibility="public" generalization="//@externalTypes.19">
+        <operation name="initializeArguments" xmiGuid="_18_0_5_16b8041b_1454237133182_325864_6058" visibility="public">
+          <ownedComment xmiGuid="_18_0_5_16b8041b_1454237153849_708060_6061" annotation="Initialize arguments."/>
+        </operation>
+        <operation name="render" xmiGuid="_18_0_5_16b8041b_1454237059191_480951_6047" visibility="public">
+          <return name="" xmiGuid="_18_0_5_16b8041b_1454237171943_365777_6063" direction="return" type="//@externalTypes.14" operation="_18_0_5_16b8041b_1454237059191_480951_6047">
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </return>
+        </operation>
+        <property xsi:type="gcore:MAttribute" name="tagName" xmiGuid="_18_0_5_16b8041b_1454237082657_518173_6050" stereotype="_14_0_b6f02e1_1212567706968_503410_178" visibility="protected" type="//@externalTypes.14" defaultvalue="'img'">
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.0"/>
+          <taggedValue value="false" tag="//@anyStereotype.17/@property.1"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.2"/>
+          <taggedValue value="true" tag="//@anyStereotype.17/@property.3"/>
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+      </classifier>
+    </nestedPackage>
+    <nestedPackage name="Command" xmiGuid="_18_0_3_16b8041b_1427039393949_394425_7156"/>
+    <nestedPackage name="Utility" xmiGuid="_18_0_3_16b8041b_1427039393892_355690_6926">
+      <classifier xsi:type="gcore:MClass" name="ExtensionUtility" xmiGuid="_18_0_3_16b8041b_1427039393683_681957_6317" visibility="public">
+        <property xsi:type="gcore:MAttribute" name="EXTENSION_KEY" xmiGuid="_18_0_3_16b8041b_1427039393917_540357_6952" visibility="public" type="//@externalTypes.14" defaultvalue="'clubman'" static="true" final="true">
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+        <property xsi:type="gcore:MAttribute" name="EXTENSION_NAME" xmiGuid="_18_0_3_16b8041b_1427039393840_958264_6767" visibility="public" type="//@externalTypes.14" defaultvalue="'Clubman'" static="true" final="true">
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+        <property xsi:type="gcore:MAttribute" name="VENDOR_NAME" xmiGuid="_18_0_3_16b8041b_1427039393845_544067_6802" visibility="public" type="//@externalTypes.14" defaultvalue="'Systemmacher'" static="true" final="true">
+          <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+        </property>
+      </classifier>
+      <classifier xsi:type="gcore:MClass" name="LocalizationUtility" xmiGuid="_18_0_3_16b8041b_1427039393743_829772_6508" visibility="public">
+        <operation name="translate" xmiGuid="_18_0_3_16b8041b_1427039393892_486057_6919" visibility="public" static="true">
+          <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393743_7114_6507" annotation="Returns the localized label of the LOCAL_LANG key, $key."/>
+          <parameter name="key" xmiGuid="_18_0_3_16b8041b_1427039393699_960539_6355" direction="in" type="//@externalTypes.14" operation="_18_0_3_16b8041b_1427039393892_486057_6919">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393800_15234_6687" annotation="The key from the LOCAL_LANG array for which to return the value."/>
+            <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+          </parameter>
+          <parameter name="arguments" xmiGuid="_18_0_3_16b8041b_1427039393962_865398_7191" direction="in" type="//@externalTypes.18" operation="_18_0_3_16b8041b_1427039393892_486057_6919">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393945_829559_7129" annotation="The arguments of the extension, being passed over to vsprintf."/>
+            <multiplicity unique="true" upperBound="-1"/>
+          </parameter>
+          <return name="" xmiGuid="_18_0_3_16b8041b_1427039393945_752542_7141" direction="return" type="//@externalTypes.14" operation="_18_0_3_16b8041b_1427039393892_486057_6919">
+            <ownedComment xmiGuid="_18_0_3_16b8041b_1427039393985_521731_7249" annotation="The value from LOCAL_LANG or NULL if no translation was found."/>
+            <multiplicity unique="true" upperBound="1"/>
+          </return>
+        </operation>
+      </classifier>
+    </nestedPackage>
+  </nestedPackage>
+  <nestedPackage name="Configuration" xmiGuid="_18_0_3_16b8041b_1427039393776_135929_6561">
+    <classifier xsi:type="gcore:MInterface" name="TeamPlugin" xmiGuid="_18_0_5_16b8041b_1454259201741_533743_6208" stereotype="4398284a-1c85-11e3-8460-2388508c54e2" visibility="public">
+      <taggedValue value="ClubMan: Team" tag="//@anyStereotype.18/@property.0"/>
+      <taggedValue tag="//@anyStereotype.18/@property.1" valueReference="_18_0_5_16b8041b_1463692443007_306787_6428"/>
+      <taggedValue tag="//@anyStereotype.18/@property.1" valueReference="_18_0_5_16b8041b_1470397821341_202267_7159"/>
+      <taggedValue tag="//@anyStereotype.18/@property.1" valueReference="_18_0_5_16b8041b_1470397839894_345705_7163"/>
+      <taggedValue tag="//@anyStereotype.18/@property.3" valueReference="_18_0_5_16b8041b_1454259220831_417448_6228"/>
+      <taggedValue tag="//@anyStereotype.18/@property.3" valueReference="_18_0_5_16b8041b_1470398100701_327618_7274"/>
+      <taggedValue value="EXTBASE_PLUGIN" tag="//@anyStereotype.18/@property.4"/>
+      <property xsi:type="gcore:MAttribute" name="team" xmiGuid="_18_0_5_16b8041b_1454259478298_784677_6314" visibility="public" type="_18_0_3_16b8041b_1427040480526_106549_7357" final="true">
+        <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+      </property>
+    </classifier>
+    <classifier xsi:type="gcore:MInterface" name="TeamShowTeammatesPluginConfiguration" xmiGuid="_18_0_5_16b8041b_1454259220831_417448_6228" stereotype="_17_0_6_16b8041b_1410196294071_467516_1568" visibility="public">
+      <taggedValue value="1" tag="//@anyStereotype.19/@property.0"/>
+      <taggedValue tag="//@anyStereotype.19/@property.1" valueReference="_18_0_5_16b8041b_1470397821341_202267_7159"/>
+    </classifier>
+    <classifier xsi:type="gcore:MInterface" name="TeamShowDirectorsPluginConfiguration" xmiGuid="_18_0_5_16b8041b_1470398100701_327618_7274" stereotype="_17_0_6_16b8041b_1410196294071_467516_1568" visibility="public">
+      <taggedValue value="2" tag="//@anyStereotype.19/@property.0"/>
+      <taggedValue tag="//@anyStereotype.19/@property.1" valueReference="_18_0_5_16b8041b_1470397839894_345705_7163"/>
+    </classifier>
+    <classifier xsi:type="gcore:MInterface" name="OrganPlugin" xmiGuid="_18_0_5_16b8041b_1470660328003_621225_6327" stereotype="4398284a-1c85-11e3-8460-2388508c54e2" visibility="public">
+      <taggedValue value="ClubMan: Organ" tag="//@anyStereotype.18/@property.0"/>
+      <taggedValue tag="//@anyStereotype.18/@property.1" valueReference="_18_0_5_16b8041b_1470397876774_609087_7171"/>
+      <taggedValue tag="//@anyStereotype.18/@property.1" valueReference="_18_0_5_16b8041b_1470398217641_774144_7301"/>
+      <taggedValue tag="//@anyStereotype.18/@property.3" valueReference="_18_0_5_16b8041b_1470660344443_933761_6348"/>
+      <taggedValue value="EXTBASE_PLUGIN" tag="//@anyStereotype.18/@property.4"/>
+      <property xsi:type="gcore:MAttribute" name="organ" xmiGuid="_18_0_5_16b8041b_1470660297100_951820_6322" visibility="public" type="_18_0_5_16b8041b_1470323265695_52451_6458" final="true">
+        <multiplicity unique="true" lowerBound="1" upperBound="1"/>
+      </property>
+    </classifier>
+    <classifier xsi:type="gcore:MInterface" name="OrganShowMembersPluginConfiguration" xmiGuid="_18_0_5_16b8041b_1470660344443_933761_6348" stereotype="_17_0_6_16b8041b_1410196294071_467516_1568" visibility="public">
+      <taggedValue value="1" tag="//@anyStereotype.19/@property.0"/>
+      <taggedValue tag="//@anyStereotype.19/@property.1" valueReference="_18_0_5_16b8041b_1470398217641_774144_7301"/>
+    </classifier>
+  </nestedPackage>
+  <anyStereotype name="Typo3ExtensionConfiguration" xmiGuid="4d8cae4b-1c85-11e3-8460-2388508c54e2">
+    <property name="title" type="String"/>
+    <property name="description" type="String"/>
+    <property name="category" type="Typo3ExtensionCategory"/>
+    <property name="author" type="String"/>
+    <property name="authorEMail" type="String"/>
+    <property name="authorCompany" type="String"/>
+    <property name="state" type="Typo3ExtensionState"/>
+    <property name="uploadFolder" type="Boolean"/>
+    <property name="createDirs" type="String"/>
+    <property name="dependencies" type="String"/>
+    <property name="conflicts" type="String"/>
+    <property name="suggests" type="String"/>
+    <property name="clearCacheOnLoad" type="Boolean"/>
+    <property name="version" type="String"/>
+  </anyStereotype>
+  <anyStereotype name="ExtbaseController" xmiGuid="439149ec-1c85-11e3-8460-2388508c54e2">
+    <property name="createInitializeAction" type="Boolean"/>
+    <property name="createErrorAction" type="Boolean"/>
+  </anyStereotype>
+  <anyStereotype name="di" xmiGuid="_17_0_6_8a7027a_1350578161497_621498_1705">
+    <property name="setter" type="Boolean"/>
+    <property name="constructor" type="Boolean"/>
+  </anyStereotype>
+  <anyStereotype name="ExtbaseDomainObject" xmiGuid="439ac08b-1c85-11e3-8460-2388508c54e2">
+    <property name="allowTableOnStandardPages" type="Boolean"/>
+    <property name="createStarttimeField" type="Boolean"/>
+    <property name="createEndtimeField" type="Boolean"/>
+    <property name="createHiddenField" type="Boolean"/>
+    <property name="createFeGroupField" type="Boolean"/>
+    <property name="createSortingField" type="Boolean"/>
+    <property name="createLocalizationFields" type="Boolean"/>
+    <property name="createVersioningFields" type="Boolean"/>
+  </anyStereotype>
+  <anyStereotype name="Entity" xmiGuid="49c3bc2d-1c81-11e3-8460-2388508c54e2"/>
+  <anyStereotype name="AggregateRoot" xmiGuid="49c7da16-1c81-11e3-8460-2388508c54e2"/>
+  <anyStereotype name="Typo3Tca" xmiGuid="4d8f93b3-1c85-11e3-8460-2388508c54e2">
+    <property name="ctrlLabel" type="Property"/>
+    <property name="ctrlLabelAlt" type="Property"/>
+    <property name="ctrlLabelAltForce" type="Boolean"/>
+    <property name="ctrlHideTable" type="Boolean"/>
+    <property name="ctrlAdminOnly" type="Boolean"/>
+    <property name="ctrlReadOnly" type="Boolean"/>
+    <property name="ctrlIsStatic" type="Boolean"/>
+    <property name="ctrlRootLevel" type="Typo3TcaRootLevel"/>
+    <property name="ctrlSearchFields" type="Property"/>
+  </anyStereotype>
+  <anyStereotype name="Association" xmiGuid="8094534a-1c81-11e3-8460-2388508c54e2">
+    <property name="cascadeType" type="CascadeType"/>
+    <property name="fetchType" type="FetchType"/>
+  </anyStereotype>
+  <anyStereotype name="Typo3TcaAssociation" xmiGuid="4d87f2f0-1c85-11e3-8460-2388508c54e2" generalization="4d91689a-1c85-11e3-8460-2388508c54e2">
+    <property name="columnsConfigWizardAdd" type="Boolean"/>
+    <property name="columnsConfigWizardEdit" type="Boolean"/>
+    <property name="columnsConfigWizardSuggest" type="Boolean"/>
+  </anyStereotype>
+  <anyStereotype name="Typo3TcaProperty" xmiGuid="4d91689a-1c85-11e3-8460-2388508c54e2">
+    <property name="columnsExclude" type="Boolean"/>
+    <property name="columnsDefaultExtras" type="String"/>
+  </anyStereotype>
+  <anyStereotype name="EDataType" xmiGuid="EDataType" generalization="EClassifier">
+    <property name="dataTypeName" type="EString"/>
+  </anyStereotype>
+  <anyStereotype name="EClassifier" xmiGuid="EClassifier" generalization="ENamedElement">
+    <property name="instanceClassName" type="EString"/>
+  </anyStereotype>
+  <anyStereotype name="ENamedElement" xmiGuid="ENamedElement">
+    <property name="xmlName" type="EString"/>
+    <property name="annotations" type="EString"/>
+  </anyStereotype>
+  <anyStereotype name="ValueObject" xmiGuid="49c4f4b3-1c81-11e3-8460-2388508c54e2"/>
+  <anyStereotype name="Inheritance" xmiGuid="8095b2f2-1c81-11e3-8460-2388508c54e2">
+    <property name="inheritanceType" type="InheritanceType"/>
+    <property name="typeColumn" type="String"/>
+  </anyStereotype>
+  <anyStereotype name="Repository" xmiGuid="49c764de-1c81-11e3-8460-2388508c54e2"/>
+  <anyStereotype name="FluidViewHelper" xmiGuid="239b387b-1c85-11e3-8460-2388508c54e2"/>
+  <anyStereotype name="accessor" xmiGuid="_14_0_b6f02e1_1212567706968_503410_178">
+    <property name="getter" type="Boolean"/>
+    <property name="setter" type="Boolean"/>
+    <property name="add" type="Boolean"/>
+    <property name="remove" type="Boolean"/>
+  </anyStereotype>
+  <anyStereotype name="ExtbasePlugin" xmiGuid="4398284a-1c85-11e3-8460-2388508c54e2">
+    <property name="title" type="String"/>
+    <property name="controllerActions" type="Operation"/>
+    <property name="uncachedControllerActions" type="Operation"/>
+    <property name="pluginConfigurations" type="Interface"/>
+    <property name="pluginType" type="ExtbasePluginType"/>
+    <property name="iconPathAndFilename" type="String"/>
+  </anyStereotype>
+  <anyStereotype name="ExtbasePluginConfiguration" xmiGuid="_17_0_6_16b8041b_1410196294071_467516_1568">
+    <property name="switchableControllerActionIndex" type="Integer"/>
+    <property name="switchableControllerActions" type="Operation"/>
+  </anyStereotype>
+  <externalTypes specialization="_18_0_5_16b8041b_1463691794150_460661_6323 _18_0_5_16b8041b_1463826016503_193664_6062 _18_0_5_16b8041b_1470397876769_452786_7170" name="ActionController"/>
+  <externalTypes specialization="_18_0_3_16b8041b_1427040480526_106549_7357 _18_0_3_16b8041b_1427040492147_818624_7401 _18_0_3_16b8041b_1427811727296_159662_7564 _18_0_5_16b8041b_1462443181458_167201_5934 _18_0_5_16b8041b_1462699429685_655128_6225 _18_0_5_16b8041b_1462699524705_127812_6279 _18_0_5_16b8041b_1462699578032_893002_6301 _18_0_5_16b8041b_1463645486769_885489_6907 _18_0_5_16b8041b_1470323265695_52451_6458 _18_0_5_16b8041b_1470534983035_306503_6355 _18_0_5_16b8041b_1470536486595_769306_6430" name="AbstractEntity"/>
+  <externalTypes name="String200"/>
+  <externalTypes name="String50"/>
+  <externalTypes name="String20"/>
+  <externalTypes name="Date"/>
+  <externalTypes name="FileReference"/>
+  <externalTypes name="FrontendUser"/>
+  <externalTypes name="Boolean" stereotype="EDataType">
+    <taggedValue value="boolean" tag="//@anyStereotype.11/@property.0"/>
+  </externalTypes>
+  <externalTypes name="String100"/>
+  <externalTypes specialization="_18_0_5_16b8041b_1462443219942_310437_5962 _18_0_5_16b8041b_1462699512562_969635_6257 _18_0_5_16b8041b_1462699585059_527242_6323 _18_0_5_16b8041b_1462699590922_247802_6345" name="AbstractValueObject"/>
+  <externalTypes name="Email"/>
+  <externalTypes name="Url"/>
+  <externalTypes specialization="_18_0_5_16b8041b_1470471194524_497616_6316" name="Enumeration"/>
+  <externalTypes name="String" stereotype="EDataType">
+    <taggedValue value="java.lang.String" tag="//@anyStereotype.11/@property.0"/>
+  </externalTypes>
+  <externalTypes name="SortingType"/>
+  <externalTypes name="Text"/>
+  <externalTypes specialization="_18_0_5_16b8041b_1454259308335_620950_6276 _18_0_5_16b8041b_1463691886820_594438_6379 _18_0_5_16b8041b_1464121307681_906594_6429 _18_0_5_16b8041b_1470314680574_346978_6200 _18_0_5_16b8041b_1470397914021_351116_7215 _18_0_5_16b8041b_1470397945077_506777_7238" name="Repository"/>
+  <externalTypes name="mixed"/>
+  <externalTypes specialization="_18_0_5_16b8041b_1454237040598_21847_6026" name="AbstractTagBasedViewHelper"/>
+  <externalTypes name="Text800"/>
+  <externalTypes name="Text4000"/>
+  <externalTypes name="String500"/>
+  <externalTypes name="String150"/>
+  <externalTypes name="String40"/>
+  <externalTypes name="String80"/>
+  <externalTypes name="Text3000"/>
+  <externalTypes name="String250"/>
+  <externalTypes name="Text2000"/>
+  <externalTypes name="DateTime"/>
+  <externalTypes name="Float"/>
+  <externalTypes name="Typo3Page"/>
+</gcore:MModel>
