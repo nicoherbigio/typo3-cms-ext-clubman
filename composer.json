@@ -26,7 +26,7 @@
   },
 
   "replace": {
-    "clubman": "self.version",
+    "nicoherbigio/typo3-cms-ext-clubman": "self.version",
     "typo3-ter/clubman": "self.version"
   },
 
